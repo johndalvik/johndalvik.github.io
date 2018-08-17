@@ -16,6 +16,7 @@ var offlineFundamentals = [
   '/dist/main.js',
   '/dist/style.min.css',
   '/manifest.json',
+  '/service-worker.js',
   '/img/circle.svg',
   '/img/contact.jpg',
   '/img/profile.jpg',
