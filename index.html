@@ -4,7 +4,1031 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,:after,:before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-tap-highlight-color:rgba(0,0,0,0)}figcaption,figure,footer,main,nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}[tabindex="-1"]:focus{outline:0!important}h1,h2{margin-top:0;margin-bottom:.5rem}p,ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}strong{font-weight:bolder}a{color:#007bff;text-decoration:none;background-color:transparent}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}code{font-family:SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}figure{margin:0 0 1rem}img{border-style:none}img,svg{vertical-align:middle}svg{overflow:hidden}caption{padding-top:.75rem;padding-bottom:.75rem;color:#6c757d;text-align:left;caption-side:bottom}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;overflow:visible}button{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=date],input[type=datetime-local],input[type=month],input[type=time]{-webkit-appearance:listbox}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:none}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}summary{display:list-item;cursor:pointer}[hidden]{display:none!important}.h1,.h2,h1,h2{margin-bottom:.5rem;font-weight:500;line-height:1.2}.h1,h1{font-size:2.5rem}.h2,h2{font-size:2rem}.figure{display:inline-block}code{font-size:87.5%;color:#e83e8c;word-break:break-word}a>code{color:inherit}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.nav{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.navbar{position:relative;padding:.5rem 1rem}.navbar,.navbar>.container{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap}.navbar-brand:focus,.navbar-brand:hover{text-decoration:none}.card{position:relative;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}@-webkit-keyframes progress-bar-stripes{0%{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{0%{background-position:1rem 0}to{background-position:0 0}}@-webkit-keyframes spinner-border{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes spinner-border{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes spinner-grow{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1}}@keyframes spinner-grow{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1}}.text-primary{color:#007bff!important}a.text-primary:focus,a.text-primary:hover{color:#0056b3!important}@media print{*,:after,:before{text-shadow:none!important;box-shadow:none!important}a:not(.btn){text-decoration:underline}img{page-break-inside:avoid}h2,p{orphans:3;widows:3}h2{page-break-after:avoid}@page{size:a3}.container,body{min-width:992px!important}.navbar{display:none}}.navbar{padding:1.2rem 0}.navbar .navbar-brand{max-width:60%}.logo{cursor:pointer}.logo.mobile{display:block;height:65px}.logo.desktop{display:none}@media screen and (min-width:768px){.logo.mobile{display:none}.logo.desktop{display:block}}.hero{width:100%;padding-top:2rem}.hero .hero-body{display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;-webkit-flex-grow:1;flex-grow:1;-webkit-flex-shrink:0;flex-shrink:0;padding:3rem 1.5rem}.hero .hero-body h1,.hero .hero-body h2{text-align:center;margin-bottom:1.5rem;line-height:1.125}.hero .hero-body h1{font-weight:800;font-size:2.5rem}.hero .hero-body h2{font-weight:300;font-size:1.25rem}.hero .hero-body .profile-img{margin:2rem auto;width:210px}@media screen and (min-width:769px){.hero .hero-body .profile-img{width:210px}}.hero .hero-foot .is-bottom{margin-bottom:-3rem}.intro{text-align:center;background-color:#009b77;color:#fff;padding-bottom:13rem;padding-top:4rem}.skills{margin-top:-14rem}@media screen and (max-width:768px){.skills .container{width:100%!important}}.skills .container{margin:0 auto;width:75%;border-radius:12px;background-color:#fff;box-shadow:0 5px 5px 0 rgba(233,240,243,.5),0 0 0 1px #e6ecf8}.skills .container .column{text-align:center;padding:60px 35px}.skills .container .column .icon-frontend{margin:0 auto 2em}.clients{padding:5rem 1.5rem;text-align:center}.clients .client-grid{padding-top:3rem;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-column-gap:3rem}.clients .client-grid .column{-webkit-align-self:center;align-self:center}.clients .container .columns{display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center}.clients .container .columns .column{-webkit-flex:none;flex:none;width:65%}.clients .container .columns .title{color:#293347;font-weight:800}@media (max-width:768px){.clients .client-grid{grid-template-columns:1fr 1fr}}.portfolio{text-align:center}@media screen and (min-width:769px){.portfolio .project-grid{padding-top:4rem}}.portfolio .project-grid{padding:2rem 0 4rem}.portfolio .project-grid .columns{display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;flex-wrap:wrap}.portfolio .project-grid .columns .column{padding:1rem}@media screen and (min-width:769px) and (max-width:992px){.portfolio .project-grid .columns .column{width:50%}}@media screen and (min-width:993px){.portfolio .project-grid .columns .column{width:33.3333%}}@media screen and (max-width:768px){.portfolio .project-grid .columns .column{width:100%}}.portfolio figure{cursor:pointer;position:relative;overflow:hidden;border-radius:12px}.portfolio .img-figure{padding-top:100%;display:block;position:relative}.portfolio .img-figure.no-button .title{margin-bottom:0}.portfolio .portfolio-img{-webkit-transform:scale(1);transform:scale(1);transition:.25s ease-in-out;width:100%;height:100%;bottom:0;left:0;position:absolute!important;right:0;top:0}@media screen and (min-width:769px){.portfolio .project-grid figure figcaption{padding:0 2rem}}.portfolio figure figcaption{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;padding:0 3rem;color:#fff;z-index:1}.portfolio .project-grid .overlay,.portfolio .project-grid figcaption{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:.45s ease-in-out}.portfolio .project-grid .overlay{background-color:#293347}.portfolio .project-grid figure:hover .overlay,.portfolio .project-grid figure:hover figcaption{opacity:1}.portfolio .project-grid figure figcaption .title{color:#fff;margin-bottom:1.8rem;font-weight:500;font-size:1.25rem}.portfolio .project-grid figure figcaption .button{margin:0 auto;font-size:18px;padding:.5rem 1.2rem;font-weight:400;color:#fff;background-color:transparent;border:2px solid #009b77;border-radius:290486px;text-decoration:none}.portfolio .project-grid figure figcaption .button .icon{margin-top:2px;margin-left:.5rem}.portfolio .project-grid figure figcaption .button:focus,.portfolio .project-grid figure figcaption .button:hover{background-color:#009b77;border-color:#009b77;color:#fff}footer{background-color:#009b77;padding:2rem 1.5rem 1rem}footer,footer .logo-container{text-align:center}footer .logo-container svg{margin:0 auto}footer .title{margin:2rem auto;opacity:.6}footer .button{background-color:#fff;border-color:#dbdbdb;border-width:1px;color:#363636;cursor:pointer;-webkit-justify-content:center;justify-content:center;padding:calc(.375em - 1px) .75em;text-align:center;white-space:nowrap;box-shadow:none;display:-webkit-inline-flex;display:inline-flex;-webkit-appearance:none;-webkit-align-items:center;align-items:center}footer .social-icons a.button:hover{background:#fff;color:#009b77;border:2px solid #fff}footer .social-icons{margin:0 auto 3.5rem}footer .social-icons a.button{transition:all .2s ease-in-out;background-color:transparent;color:#fff;border-radius:100%;margin:0 .2rem;height:47px;width:47px;border:2px solid hsla(0,0%,100%,.3);font-size:1.18rem}footer .social-icons a.button svg{width:1.25em}footer .social-icons a.button .icon:first-child:last-child{margin-left:calc(-.375em - 1px);margin-right:calc(-.375em - 1px)}footer .social-icons a.button .icon{-webkit-align-items:center;align-items:center;display:-webkit-inline-flex;display:inline-flex;-webkit-justify-content:center;justify-content:center;height:1.4rem;width:1.4rem}footer .copyright svg{width:1.25rem}footer .made-with-gatsby{opacity:.6;margin-top:.7rem}footer .made-with-gatsby div{margin-bottom:.5rem}.not-found{position:absolute;width:100%;height:100%;top:0;bottom:0;left:0;right:0;display:-webkit-flex;display:flex;-webkit-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;-webkit-align-content:center;align-content:center}.not-found .emoji{margin-right:2rem}.not-found .emoji img{width:150px}.not-found p{margin-bottom:1.5rem}@media screen and (max-width:576px){.not-found .emoji{margin-bottom:2rem}.not-found .text{text-align:center!important}}html{box-sizing:border-box;font-size:16px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;font-family:Nunito,sans-serif!important;color:#000}*,:after,:before{box-sizing:inherit}body,h1,h2,p,ul{margin:0;padding:0;font-weight:400;font-family:Nunito,sans-serif!important}ul{list-style:none}img{max-width:100%;height:auto}.section p{margin-bottom:2rem}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#f5f5f5}::-webkit-scrollbar{width:6px;background-color:#f5f5f5}::-webkit-scrollbar-thumb{background-color:#343a40}.accent{background-color:#009b77;color:#fff}.button{background-color:#fff;border-color:#dbdbdb;border-width:1px;color:#363636;cursor:pointer;-webkit-justify-content:center;justify-content:center;padding:calc(.375em - 1px) .75em;text-align:center;white-space:nowrap;text-decoration:none!important;transition:all .2s ease-in-out}.button.is-primary.is-outlined{border:2px solid #009b77;font-weight:600;font-size:18px;padding:.5rem 1rem;background-color:transparent;color:#009b77;border-radius:290486px}.button.is-primary.is-outlined:focus,.button.is-primary.is-outlined:hover{background-color:#009b77;border-color:#009b77;color:#fff}@media screen and (min-width:500px){html{font-size:14px}}@media screen and (min-width:570px){html{font-size:15px}}@media screen and (min-width:620px){html{font-size:16px}}section{padding:3rem 10%}h1,h2{line-height:1.3}h1{font-size:2rem;margin:0 0 1rem}h2{font-size:1.5rem;margin:1rem 0 2rem}p{font-size:1rem;margin:1rem 0}.text-primary{color:#009b77!important;font-weight:600}</style><meta name="generator" content="Gatsby 2.1.23"/><title data-react-helmet="true">Akos Horvath Front-end Developer</title><meta data-react-helmet="true" name="description" content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."/><meta data-react-helmet="true" property="og:title" content="Home"/><meta data-react-helmet="true" property="og:description" content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@johndalvik"/><meta data-react-helmet="true" name="twitter:title" content="Home"/><meta data-react-helmet="true" name="twitter:description" content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."/><meta data-react-helmet="true" name="keywords" content="front-end, development, react, gatsbyjs, javascript, angular, framework, developer"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#009B77"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><script>
+ */
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+*, :after, :before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+figcaption, figure, footer, main, nav, section {
+    display: block
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+[tabindex="-1"]:focus {
+    outline: 0 !important
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: .5rem
+}
+
+p, ul {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ul ul {
+    margin-bottom: 0
+}
+
+strong {
+    font-weight: bolder
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus {
+    outline: 0
+}
+
+code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: 1em
+}
+
+figure {
+    margin: 0 0 1rem
+}
+
+img {
+    border-style: none
+}
+
+img, svg {
+    vertical-align: middle
+}
+
+svg {
+    overflow: hidden
+}
+
+caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom
+}
+
+button {
+    border-radius: 0
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color
+}
+
+button, input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible
+}
+
+button {
+    text-transform: none
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+    padding: 0;
+    border-style: none
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=date], input[type=datetime-local], input[type=month], input[type=time] {
+    -webkit-appearance: listbox
+}
+
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button
+}
+
+summary {
+    display: list-item;
+    cursor: pointer
+}
+
+[hidden] {
+    display: none !important
+}
+
+.h1, .h2, h1, h2 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+.h1, h1 {
+    font-size: 2.5rem
+}
+
+.h2, h2 {
+    font-size: 2rem
+}
+
+.figure {
+    display: inline-block
+}
+
+code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word
+}
+
+a > code {
+    color: inherit
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar {
+    position: relative;
+    padding: .5rem 1rem
+}
+
+.navbar, .navbar > .container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none
+}
+
+.card {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+
+@-webkit-keyframes progress-bar-stripes {
+    0% {
+        background-position: 1rem 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes progress-bar-stripes {
+    0% {
+        background-position: 1rem 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@-webkit-keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@-webkit-keyframes spinner-grow {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes spinner-grow {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    50% {
+        opacity: 1
+    }
+}
+
+.text-primary {
+    color: #007bff !important
+}
+
+a.text-primary:focus, a.text-primary:hover {
+    color: #0056b3 !important
+}
+
+@media print {
+    *, :after, :before {
+        text-shadow: none !important;
+        box-shadow: none !important
+    }
+
+    a:not(.btn) {
+        text-decoration: underline
+    }
+
+    img {
+        page-break-inside: avoid
+    }
+
+    h2, p {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2 {
+        page-break-after: avoid
+    }
+
+    @page {
+        size: a3
+    }
+
+    .container, body {
+        min-width: 992px !important
+    }
+
+    .navbar {
+        display: none
+    }
+}
+
+.navbar {
+    padding: 1.2rem 0
+}
+
+.navbar .navbar-brand {
+    max-width: 60%
+}
+
+.logo {
+    cursor: pointer
+}
+
+.logo.mobile {
+    display: block;
+    height: 65px
+}
+
+.logo.desktop {
+    display: none
+}
+
+@media screen and (min-width: 768px) {
+    .logo.mobile {
+        display: none
+    }
+
+    .logo.desktop {
+        display: block
+    }
+}
+
+.hero {
+    width: 100%;
+    padding-top: 2rem
+}
+
+.hero .hero-body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem
+}
+
+.hero .hero-body h1, .hero .hero-body h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    line-height: 1.125
+}
+
+.hero .hero-body h1 {
+    font-weight: 800;
+    font-size: 2.5rem
+}
+
+.hero .hero-body h2 {
+    font-weight: 300;
+    font-size: 1.25rem
+}
+
+.hero .hero-body .profile-img {
+    margin: 2rem auto;
+    width: 210px
+}
+
+@media screen and (min-width: 769px) {
+    .hero .hero-body .profile-img {
+        width: 210px
+    }
+}
+
+.hero .hero-foot .is-bottom {
+    margin-bottom: -3rem
+}
+
+.intro {
+    text-align: center;
+    background-color: #009b77;
+    color: #fff;
+    padding-bottom: 13rem;
+    padding-top: 4rem
+}
+
+.skills {
+    margin-top: -14rem
+}
+
+@media screen and (max-width: 768px) {
+    .skills .container {
+        width: 100% !important
+    }
+}
+
+.skills .container {
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #e6ecf8
+}
+
+.skills .container .column {
+    text-align: center;
+    padding: 60px 35px
+}
+
+.skills .container .column .icon-frontend {
+    margin: 0 auto 2em
+}
+
+.clients {
+    padding: 5rem 1.5rem;
+    text-align: center
+}
+
+.clients .client-grid {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3rem
+}
+
+.clients .client-grid .column {
+    -webkit-align-self: center;
+    align-self: center
+}
+
+.clients .container .columns {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.clients .container .columns .column {
+    -webkit-flex: none;
+    flex: none;
+    width: 65%
+}
+
+.clients .container .columns .title {
+    color: #293347;
+    font-weight: 800
+}
+
+@media (max-width: 768px) {
+    .clients .client-grid {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+.portfolio {
+    text-align: center
+}
+
+@media screen and (min-width: 769px) {
+    .portfolio .project-grid {
+        padding-top: 4rem
+    }
+}
+
+.portfolio .project-grid {
+    padding: 2rem 0 4rem
+}
+
+.portfolio .project-grid .columns {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.portfolio .project-grid .columns .column {
+    padding: 1rem
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .portfolio .project-grid .columns .column {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .portfolio .project-grid .columns .column {
+        width: 33.3333%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio .project-grid .columns .column {
+        width: 100%
+    }
+}
+
+.portfolio figure {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px
+}
+
+.portfolio .img-figure {
+    padding-top: 100%;
+    display: block;
+    position: relative
+}
+
+.portfolio .img-figure.no-button .title {
+    margin-bottom: 0
+}
+
+.portfolio .portfolio-img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: .25s ease-in-out;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute !important;
+    right: 0;
+    top: 0
+}
+
+@media screen and (min-width: 769px) {
+    .portfolio .project-grid figure figcaption {
+        padding: 0 2rem
+    }
+}
+
+.portfolio figure figcaption {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0 3rem;
+    color: #fff;
+    z-index: 1
+}
+
+.portfolio .project-grid .overlay, .portfolio .project-grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .45s ease-in-out
+}
+
+.portfolio .project-grid .overlay {
+    background-color: #293347
+}
+
+.portfolio .project-grid figure:hover .overlay, .portfolio .project-grid figure:hover figcaption {
+    opacity: 1
+}
+
+.portfolio .project-grid figure figcaption .title {
+    color: #fff;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    font-size: 1.25rem
+}
+
+.portfolio .project-grid figure figcaption .button {
+    margin: 0 auto;
+    font-size: 18px;
+    padding: .5rem 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #009b77;
+    border-radius: 290486px;
+    text-decoration: none
+}
+
+.portfolio .project-grid figure figcaption .button .icon {
+    margin-top: 2px;
+    margin-left: .5rem
+}
+
+.portfolio .project-grid figure figcaption .button:focus, .portfolio .project-grid figure figcaption .button:hover {
+    background-color: #009b77;
+    border-color: #009b77;
+    color: #fff
+}
+
+footer {
+    background-color: #009b77;
+    padding: 2rem 1.5rem 1rem
+}
+
+footer, footer .logo-container {
+    text-align: center
+}
+
+footer .logo-container svg {
+    margin: 0 auto
+}
+
+footer .title {
+    margin: 2rem auto;
+    opacity: .6
+}
+
+footer .button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: calc(.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: none;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-appearance: none;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+footer .social-icons a.button:hover {
+    background: #fff;
+    color: #009b77;
+    border: 2px solid #fff
+}
+
+footer .social-icons {
+    margin: 0 auto 3.5rem
+}
+
+footer .social-icons a.button {
+    transition: all .2s ease-in-out;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 100%;
+    margin: 0 .2rem;
+    height: 47px;
+    width: 47px;
+    border: 2px solid hsla(0, 0%, 100%, .3);
+    font-size: 1.18rem
+}
+
+footer .social-icons a.button svg {
+    width: 1.25em
+}
+
+footer .social-icons a.button .icon:first-child:last-child {
+    margin-left: calc(-.375em - 1px);
+    margin-right: calc(-.375em - 1px)
+}
+
+footer .social-icons a.button .icon {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 1.4rem;
+    width: 1.4rem
+}
+
+footer .copyright svg {
+    width: 1.25rem
+}
+
+footer .made-with-gatsby {
+    opacity: .6;
+    margin-top: .7rem
+}
+
+footer .made-with-gatsby div {
+    margin-bottom: .5rem
+}
+
+.not-found {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-align-content: center;
+    align-content: center
+}
+
+.not-found .emoji {
+    margin-right: 2rem
+}
+
+.not-found .emoji img {
+    width: 150px
+}
+
+.not-found p {
+    margin-bottom: 1.5rem
+}
+
+@media screen and (max-width: 576px) {
+    .not-found .emoji {
+        margin-bottom: 2rem
+    }
+
+    .not-found .text {
+        text-align: center !important
+    }
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family: Nunito, sans-serif !important;
+    color: #000
+}
+
+*, :after, :before {
+    box-sizing: inherit
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: Nunito, sans-serif !important
+}
+
+ul {
+    list-style: none
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.section p {
+    margin-bottom: 2rem
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #f5f5f5
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #343a40
+}
+
+.accent {
+    background-color: #009b77;
+    color: #fff
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: calc(.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out
+}
+
+.button.is-primary.is-outlined {
+    border: 2px solid #009b77;
+    font-weight: 600;
+    font-size: 18px;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    color: #009b77;
+    border-radius: 290486px
+}
+
+.button.is-primary.is-outlined:focus, .button.is-primary.is-outlined:hover {
+    background-color: #009b77;
+    border-color: #009b77;
+    color: #fff
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px
+    }
+}
+
+@media screen and (min-width: 570px) {
+    html {
+        font-size: 15px
+    }
+}
+
+@media screen and (min-width: 620px) {
+    html {
+        font-size: 16px
+    }
+}
+
+section {
+    padding: 3rem 10%
+}
+
+h1, h2 {
+    line-height: 1.3
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 1rem
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem
+}
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0
+}
+
+.text-primary {
+    color: #009b77 !important;
+    font-weight: 600
+}</style>
+    <meta content="Gatsby 2.3.4" name="generator"/>
+    <title data-react-helmet="true">Akos Horvath Front-end Developer</title>
+    <meta content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."
+          data-react-helmet="true" name="description"/>
+    <meta content="Home" data-react-helmet="true" property="og:title"/>
+    <meta content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."
+          data-react-helmet="true" property="og:description"/>
+    <meta content="website" data-react-helmet="true" property="og:type"/>
+    <meta content="summary" data-react-helmet="true" name="twitter:card"/>
+    <meta content="@johndalvik" data-react-helmet="true" name="twitter:creator"/>
+    <meta content="Home" data-react-helmet="true" name="twitter:title"/>
+    <meta content="Experienced frontend developer located at Budapest. Technologies: VueJs, React, Angular, Bootstrap, Git, etc..."
+          data-react-helmet="true" name="twitter:description"/>
+    <meta content="front-end, development, react, gatsbyjs, javascript, angular, framework, developer"
+          data-react-helmet="true" name="keywords"/>
+    <link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
+    <link href="/icons/icon-48x48.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="shortcut icon"/>
+    <link href="/manifest.webmanifest" rel="manifest"/>
+    <meta content="#009B77" name="theme-color"/>
+    <link href="/icons/icon-48x48.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon" sizes="48x48"/>
+    <link href="/icons/icon-72x72.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon" sizes="72x72"/>
+    <link href="/icons/icon-96x96.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon" sizes="96x96"/>
+    <link href="/icons/icon-144x144.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon"
+          sizes="144x144"/>
+    <link href="/icons/icon-192x192.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon"
+          sizes="192x192"/>
+    <link href="/icons/icon-256x256.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon"
+          sizes="256x256"/>
+    <link href="/icons/icon-384x384.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon"
+          sizes="384x384"/>
+    <link href="/icons/icon-512x512.png?v=5ad27104843b1a78d66e0d2b2f331f7eb8702b9e" rel="apple-touch-icon"
+          sizes="512x512"/>
+    <link href="https://www.google-analytics.com" rel="preconnect dns-prefetch"/>
+    <script>
   
   function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='UA-124180521-1',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
   if(!(navigator.doNotTrack == "1" || window.doNotTrack == "1")) {
@@ -19,7 +1043,48 @@
       
       
       }
-      </script><link as="script" rel="preload" href="/component---src-pages-index-js-2975f70094ffafae644c.js"/><link as="script" rel="preload" href="/app-0f0c3226d2f3e55d3843.js"/><link as="script" rel="preload" href="/8-1db73955268ece794757.js"/><link as="script" rel="preload" href="/1-45253c72d5a62648debf.js"/><link as="script" rel="preload" href="/styles-f207158886eb04827552.js"/><link as="script" rel="preload" href="/webpack-runtime-a5d90a6128e1ce427759.js"/><link as="fetch" rel="preload" href="/static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><nav class="navbar is-transparent"><div class="container"><div class="navbar-brand"><a class="navbar-item" href="/"><svg class="logo desktop" width="319px" height="65px" viewBox="0 0 319 65" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="logo" stroke="none" stroke-width="1" fill="transparent" fill-rule="evenodd"><g id="content" transform="translate(28.000000, 18.000000)" fill="#009B77"><path d="M66.936,19.736 L59.832,19.736 L58.512,23 L53.664,23 L61.08,6.2 L65.76,6.2 L73.2,23 L68.256,23 L66.936,19.736 Z M65.544,16.232 L63.384,10.856 L61.224,16.232 L65.544,16.232 Z M81.024,16.904 L79.248,18.8 L79.248,23 L74.544,23 L74.544,6.2 L79.248,6.2 L79.248,13.184 L85.752,6.2 L90.984,6.2 L84.12,13.64 L91.344,23 L85.824,23 L81.024,16.904 Z M101.064,23.336 C99.2879911,23.336 97.6920071,22.9600038 96.276,22.208 C94.8599929,21.4559962 93.748004,20.4160066 92.94,19.088 C92.131996,17.7599934 91.728,16.2640083 91.728,14.6 C91.728,12.9359917 92.131996,11.4400066 92.94,10.112 C93.748004,8.78399336 94.8599929,7.74400376 96.276,6.992 C97.6920071,6.23999624 99.2879911,5.864 101.064,5.864 C102.840009,5.864 104.435993,6.23999624 105.852,6.992 C107.268007,7.74400376 108.379996,8.78399336 109.188,10.112 C109.996004,11.4400066 110.4,12.9359917 110.4,14.6 C110.4,16.2640083 109.996004,17.7599934 109.188,19.088 C108.379996,20.4160066 107.268007,21.4559962 105.852,22.208 C104.435993,22.9600038 102.840009,23.336 101.064,23.336 Z M101.064,19.4 C101.912004,19.4 102.679997,19.200002 103.368,18.8 C104.056003,18.399998 104.599998,17.8360036 105,17.108 C105.400002,16.3799964 105.6,15.5440047 105.6,14.6 C105.6,13.6559953 105.400002,12.8200036 105,12.092 C104.599998,11.3639964 104.056003,10.800002 103.368,10.4 C102.679997,9.999998 101.912004,9.8 101.064,9.8 C100.215996,9.8 99.4480034,9.999998 98.76,10.4 C98.0719966,10.800002 97.528002,11.3639964 97.128,12.092 C96.727998,12.8200036 96.528,13.6559953 96.528,14.6 C96.528,15.5440047 96.727998,16.3799964 97.128,17.108 C97.528002,17.8360036 98.0719966,18.399998 98.76,18.8 C99.4480034,19.200002 100.215996,19.4 101.064,19.4 Z M118.8,23.336 C117.439993,23.336 116.120006,23.1680017 114.84,22.832 C113.559994,22.4959983 112.520004,22.0480028 111.72,21.488 L113.28,17.984 C114.032004,18.4800025 114.903995,18.8799985 115.896,19.184 C116.888005,19.4880015 117.863995,19.64 118.824,19.64 C120.648009,19.64 121.56,19.1840046 121.56,18.272 C121.56,17.7919976 121.300003,17.4360012 120.78,17.204 C120.259997,16.9719988 119.424006,16.7280013 118.272,16.472 C117.007994,16.1999986 115.952004,15.9080016 115.104,15.596 C114.255996,15.2839984 113.528003,14.7840034 112.92,14.096 C112.311997,13.4079966 112.008,12.4800058 112.008,11.312 C112.008,10.2879949 112.287997,9.36400412 112.848,8.54 C113.408003,7.71599588 114.243994,7.0640024 115.356,6.584 C116.468006,6.1039976 117.831992,5.864 119.448,5.864 C120.552006,5.864 121.639995,5.98799876 122.712,6.236 C123.784005,6.48400124 124.727996,6.8479976 125.544,7.328 L124.08,10.856 C122.479992,9.99199568 120.928008,9.56 119.424,9.56 C118.479995,9.56 117.792002,9.6999986 117.36,9.98 C116.927998,10.2600014 116.712,10.6239978 116.712,11.072 C116.712,11.5200022 116.967997,11.8559989 117.48,12.08 C117.992003,12.3040011 118.815994,12.5359988 119.952,12.776 C121.232006,13.0480014 122.291996,13.3399984 123.132,13.652 C123.972004,13.9640016 124.699997,14.4599966 125.316,15.14 C125.932003,15.8200034 126.24,16.7439942 126.24,17.912 C126.24,18.920005 125.960003,19.8319959 125.4,20.648 C124.839997,21.4640041 124.000006,22.1159976 122.88,22.604 C121.759994,23.0920024 120.400008,23.336 118.8,23.336 Z M151.392,6.2 L151.392,23 L146.64,23 L146.64,16.448 L140.16,16.448 L140.16,23 L135.408,23 L135.408,6.2 L140.16,6.2 L140.16,12.512 L146.64,12.512 L146.64,6.2 L151.392,6.2 Z M163.224,23.336 C161.447991,23.336 159.852007,22.9600038 158.436,22.208 C157.019993,21.4559962 155.908004,20.4160066 155.1,19.088 C154.291996,17.7599934 153.888,16.2640083 153.888,14.6 C153.888,12.9359917 154.291996,11.4400066 155.1,10.112 C155.908004,8.78399336 157.019993,7.74400376 158.436,6.992 C159.852007,6.23999624 161.447991,5.864 163.224,5.864 C165.000009,5.864 166.595993,6.23999624 168.012,6.992 C169.428007,7.74400376 170.539996,8.78399336 171.348,10.112 C172.156004,11.4400066 172.56,12.9359917 172.56,14.6 C172.56,16.2640083 172.156004,17.7599934 171.348,19.088 C170.539996,20.4160066 169.428007,21.4559962 168.012,22.208 C166.595993,22.9600038 165.000009,23.336 163.224,23.336 Z M163.224,19.4 C164.072004,19.4 164.839997,19.200002 165.528,18.8 C166.216003,18.399998 166.759998,17.8360036 167.16,17.108 C167.560002,16.3799964 167.76,15.5440047 167.76,14.6 C167.76,13.6559953 167.560002,12.8200036 167.16,12.092 C166.759998,11.3639964 166.216003,10.800002 165.528,10.4 C164.839997,9.999998 164.072004,9.8 163.224,9.8 C162.375996,9.8 161.608003,9.999998 160.92,10.4 C160.231997,10.800002 159.688002,11.3639964 159.288,12.092 C158.887998,12.8200036 158.688,13.6559953 158.688,14.6 C158.688,15.5440047 158.887998,16.3799964 159.288,17.108 C159.688002,17.8360036 160.231997,18.399998 160.92,18.8 C161.608003,19.200002 162.375996,19.4 163.224,19.4 Z M182.4,18.536 L179.808,18.536 L179.808,23 L175.056,23 L175.056,6.2 L182.736,6.2 C184.256008,6.2 185.575994,6.45199748 186.696,6.956 C187.816006,7.46000252 188.679997,8.17999532 189.288,9.116 C189.896003,10.0520047 190.2,11.1519937 190.2,12.416 C190.2,13.6320061 189.916003,14.6919955 189.348,15.596 C188.779997,16.5000045 187.968005,17.2079974 186.912,17.72 L190.536,23 L185.448,23 L182.4,18.536 Z M185.4,12.416 C185.4,11.6319961 185.152002,11.0240022 184.656,10.592 C184.159998,10.1599978 183.424005,9.944 182.448,9.944 L179.808,9.944 L179.808,14.864 L182.448,14.864 C183.424005,14.864 184.159998,14.6520021 184.656,14.228 C185.152002,13.8039979 185.4,13.2000039 185.4,12.416 Z M209.856,6.2 L202.656,23 L197.976,23 L190.8,6.2 L195.936,6.2 L200.496,17.144 L205.152,6.2 L209.856,6.2 Z M222.456,19.736 L215.352,19.736 L214.032,23 L209.184,23 L216.6,6.2 L221.28,6.2 L228.72,23 L223.776,23 L222.456,19.736 Z M221.064,16.232 L218.904,10.856 L216.744,16.232 L221.064,16.232 Z M233.64,9.968 L228.48,9.968 L228.48,6.2 L243.528,6.2 L243.528,9.968 L238.392,9.968 L238.392,23 L233.64,23 L233.64,9.968 Z M261.288,6.2 L261.288,23 L256.536,23 L256.536,16.448 L250.056,16.448 L250.056,23 L245.304,23 L245.304,6.2 L250.056,6.2 L250.056,12.512 L256.536,12.512 L256.536,6.2 L261.288,6.2 Z" id="Akos-Horvath"></path><g id="ICON" fill-rule="nonzero"><path d="M22.4189005,2.12483395 C22.7014105,0.994793785 23.8465087,0.307734866 24.9765489,0.590244909 C26.1065891,0.872754951 26.793648,2.01785315 26.5111379,3.14789332 L20.5006642,27.1897884 C20.2181541,28.3198285 19.0730559,29.0068875 17.9430158,28.7243774 C16.8129756,28.4418674 16.1259167,27.2967692 16.4084267,26.166729 L22.4189005,2.12483395 Z" id="Line"></path><path d="M29.1967138,6.70164122 C28.4075464,5.84489297 28.4623315,4.51061473 29.3190798,3.72144735 C30.175828,2.93227997 31.5101063,2.98706508 32.2992736,3.84381333 L41.0415336,13.3347224 C41.7904403,14.1477623 41.784556,15.4010816 41.0280479,16.2070535 L32.1196125,25.6979626 C31.3224352,26.547263 29.9877013,26.589517 29.138401,25.7923398 C28.2891007,24.9951625 28.2468466,23.6604286 29.0440239,22.8111283 L36.6103187,14.750115 L29.1967138,6.70164122 Z" id="Line-Copy"></path><path d="M0.723986516,6.70164122 C-0.065180864,5.84489297 -0.0103957481,4.51061473 0.846352497,3.72144735 C1.70310074,2.93227997 3.03737899,2.98706508 3.82654637,3.84381333 L12.5688063,13.3347224 C13.3177131,14.1477623 13.3118287,15.4010816 12.5553207,16.2070535 L3.64688521,25.6979626 C2.84970791,26.547263 1.51497407,26.589517 0.665673727,25.7923398 C-0.183626612,24.9951625 -0.225880686,23.6604286 0.571296612,22.8111283 L8.13759142,14.750115 L0.723986516,6.70164122 Z" id="Line-Copy-2" transform="translate(6.563305, 14.763634) scale(-1, 1) translate(-6.563305, -14.763634) "></path></g></g><rect id="rectangle" stroke="#009B77" stroke-width="3" stroke-linejoin="round" fill-rule="nonzero" x="10" y="10" width="299" height="45"></rect></g></svg><svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="logo mobile" width="65px" height="65px" viewBox="0 0 1600.000000 1600.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,1600.000000) scale(0.100000,-0.100000)" fill="#009B77" stroke="none"><path d="M9189 13563 c-35 -7 -88 -25 -118 -40 -71 -35 -160 -119 -193 -180
+    </script>
+    <link as="script" href="/webpack-runtime-b89e59618e49e9d305e3.js" rel="preload"/>
+    <link as="script" href="/app-48cb971dc06781d2931f.js" rel="preload"/>
+    <link as="script" href="/styles-1fcfc8b8a193d4fac16e.js" rel="preload"/>
+    <link as="script" href="/1-5747494c3e854b480bb6.js" rel="preload"/>
+    <link as="script" href="/8-373a1af04a1553ffb8c5.js" rel="preload"/>
+    <link as="script" href="/component---src-pages-index-js-87d3b17c3a8c467f0533.js" rel="preload"/>
+    <link as="fetch" crossorigin="use-credentials" href="/static/d/140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8.json"
+          rel="preload"/>
+</head>
+<body>
+<noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript>
+<div id="___gatsby">
+    <div role="group" style="outline:none" tabindex="-1">
+        <nav class="navbar is-transparent">
+            <div class="container">
+                <div class="navbar-brand"><a class="navbar-item" href="/">
+                    <svg class="logo desktop" height="65px" version="1.1" viewBox="0 0 319 65" width="319px"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <g fill="transparent" fill-rule="evenodd" id="logo" stroke="none" stroke-width="1">
+                            <g fill="#009B77" id="content" transform="translate(28.000000, 18.000000)">
+                                <path d="M66.936,19.736 L59.832,19.736 L58.512,23 L53.664,23 L61.08,6.2 L65.76,6.2 L73.2,23 L68.256,23 L66.936,19.736 Z M65.544,16.232 L63.384,10.856 L61.224,16.232 L65.544,16.232 Z M81.024,16.904 L79.248,18.8 L79.248,23 L74.544,23 L74.544,6.2 L79.248,6.2 L79.248,13.184 L85.752,6.2 L90.984,6.2 L84.12,13.64 L91.344,23 L85.824,23 L81.024,16.904 Z M101.064,23.336 C99.2879911,23.336 97.6920071,22.9600038 96.276,22.208 C94.8599929,21.4559962 93.748004,20.4160066 92.94,19.088 C92.131996,17.7599934 91.728,16.2640083 91.728,14.6 C91.728,12.9359917 92.131996,11.4400066 92.94,10.112 C93.748004,8.78399336 94.8599929,7.74400376 96.276,6.992 C97.6920071,6.23999624 99.2879911,5.864 101.064,5.864 C102.840009,5.864 104.435993,6.23999624 105.852,6.992 C107.268007,7.74400376 108.379996,8.78399336 109.188,10.112 C109.996004,11.4400066 110.4,12.9359917 110.4,14.6 C110.4,16.2640083 109.996004,17.7599934 109.188,19.088 C108.379996,20.4160066 107.268007,21.4559962 105.852,22.208 C104.435993,22.9600038 102.840009,23.336 101.064,23.336 Z M101.064,19.4 C101.912004,19.4 102.679997,19.200002 103.368,18.8 C104.056003,18.399998 104.599998,17.8360036 105,17.108 C105.400002,16.3799964 105.6,15.5440047 105.6,14.6 C105.6,13.6559953 105.400002,12.8200036 105,12.092 C104.599998,11.3639964 104.056003,10.800002 103.368,10.4 C102.679997,9.999998 101.912004,9.8 101.064,9.8 C100.215996,9.8 99.4480034,9.999998 98.76,10.4 C98.0719966,10.800002 97.528002,11.3639964 97.128,12.092 C96.727998,12.8200036 96.528,13.6559953 96.528,14.6 C96.528,15.5440047 96.727998,16.3799964 97.128,17.108 C97.528002,17.8360036 98.0719966,18.399998 98.76,18.8 C99.4480034,19.200002 100.215996,19.4 101.064,19.4 Z M118.8,23.336 C117.439993,23.336 116.120006,23.1680017 114.84,22.832 C113.559994,22.4959983 112.520004,22.0480028 111.72,21.488 L113.28,17.984 C114.032004,18.4800025 114.903995,18.8799985 115.896,19.184 C116.888005,19.4880015 117.863995,19.64 118.824,19.64 C120.648009,19.64 121.56,19.1840046 121.56,18.272 C121.56,17.7919976 121.300003,17.4360012 120.78,17.204 C120.259997,16.9719988 119.424006,16.7280013 118.272,16.472 C117.007994,16.1999986 115.952004,15.9080016 115.104,15.596 C114.255996,15.2839984 113.528003,14.7840034 112.92,14.096 C112.311997,13.4079966 112.008,12.4800058 112.008,11.312 C112.008,10.2879949 112.287997,9.36400412 112.848,8.54 C113.408003,7.71599588 114.243994,7.0640024 115.356,6.584 C116.468006,6.1039976 117.831992,5.864 119.448,5.864 C120.552006,5.864 121.639995,5.98799876 122.712,6.236 C123.784005,6.48400124 124.727996,6.8479976 125.544,7.328 L124.08,10.856 C122.479992,9.99199568 120.928008,9.56 119.424,9.56 C118.479995,9.56 117.792002,9.6999986 117.36,9.98 C116.927998,10.2600014 116.712,10.6239978 116.712,11.072 C116.712,11.5200022 116.967997,11.8559989 117.48,12.08 C117.992003,12.3040011 118.815994,12.5359988 119.952,12.776 C121.232006,13.0480014 122.291996,13.3399984 123.132,13.652 C123.972004,13.9640016 124.699997,14.4599966 125.316,15.14 C125.932003,15.8200034 126.24,16.7439942 126.24,17.912 C126.24,18.920005 125.960003,19.8319959 125.4,20.648 C124.839997,21.4640041 124.000006,22.1159976 122.88,22.604 C121.759994,23.0920024 120.400008,23.336 118.8,23.336 Z M151.392,6.2 L151.392,23 L146.64,23 L146.64,16.448 L140.16,16.448 L140.16,23 L135.408,23 L135.408,6.2 L140.16,6.2 L140.16,12.512 L146.64,12.512 L146.64,6.2 L151.392,6.2 Z M163.224,23.336 C161.447991,23.336 159.852007,22.9600038 158.436,22.208 C157.019993,21.4559962 155.908004,20.4160066 155.1,19.088 C154.291996,17.7599934 153.888,16.2640083 153.888,14.6 C153.888,12.9359917 154.291996,11.4400066 155.1,10.112 C155.908004,8.78399336 157.019993,7.74400376 158.436,6.992 C159.852007,6.23999624 161.447991,5.864 163.224,5.864 C165.000009,5.864 166.595993,6.23999624 168.012,6.992 C169.428007,7.74400376 170.539996,8.78399336 171.348,10.112 C172.156004,11.4400066 172.56,12.9359917 172.56,14.6 C172.56,16.2640083 172.156004,17.7599934 171.348,19.088 C170.539996,20.4160066 169.428007,21.4559962 168.012,22.208 C166.595993,22.9600038 165.000009,23.336 163.224,23.336 Z M163.224,19.4 C164.072004,19.4 164.839997,19.200002 165.528,18.8 C166.216003,18.399998 166.759998,17.8360036 167.16,17.108 C167.560002,16.3799964 167.76,15.5440047 167.76,14.6 C167.76,13.6559953 167.560002,12.8200036 167.16,12.092 C166.759998,11.3639964 166.216003,10.800002 165.528,10.4 C164.839997,9.999998 164.072004,9.8 163.224,9.8 C162.375996,9.8 161.608003,9.999998 160.92,10.4 C160.231997,10.800002 159.688002,11.3639964 159.288,12.092 C158.887998,12.8200036 158.688,13.6559953 158.688,14.6 C158.688,15.5440047 158.887998,16.3799964 159.288,17.108 C159.688002,17.8360036 160.231997,18.399998 160.92,18.8 C161.608003,19.200002 162.375996,19.4 163.224,19.4 Z M182.4,18.536 L179.808,18.536 L179.808,23 L175.056,23 L175.056,6.2 L182.736,6.2 C184.256008,6.2 185.575994,6.45199748 186.696,6.956 C187.816006,7.46000252 188.679997,8.17999532 189.288,9.116 C189.896003,10.0520047 190.2,11.1519937 190.2,12.416 C190.2,13.6320061 189.916003,14.6919955 189.348,15.596 C188.779997,16.5000045 187.968005,17.2079974 186.912,17.72 L190.536,23 L185.448,23 L182.4,18.536 Z M185.4,12.416 C185.4,11.6319961 185.152002,11.0240022 184.656,10.592 C184.159998,10.1599978 183.424005,9.944 182.448,9.944 L179.808,9.944 L179.808,14.864 L182.448,14.864 C183.424005,14.864 184.159998,14.6520021 184.656,14.228 C185.152002,13.8039979 185.4,13.2000039 185.4,12.416 Z M209.856,6.2 L202.656,23 L197.976,23 L190.8,6.2 L195.936,6.2 L200.496,17.144 L205.152,6.2 L209.856,6.2 Z M222.456,19.736 L215.352,19.736 L214.032,23 L209.184,23 L216.6,6.2 L221.28,6.2 L228.72,23 L223.776,23 L222.456,19.736 Z M221.064,16.232 L218.904,10.856 L216.744,16.232 L221.064,16.232 Z M233.64,9.968 L228.48,9.968 L228.48,6.2 L243.528,6.2 L243.528,9.968 L238.392,9.968 L238.392,23 L233.64,23 L233.64,9.968 Z M261.288,6.2 L261.288,23 L256.536,23 L256.536,16.448 L250.056,16.448 L250.056,23 L245.304,23 L245.304,6.2 L250.056,6.2 L250.056,12.512 L256.536,12.512 L256.536,6.2 L261.288,6.2 Z"
+                                      id="Akos-Horvath"></path>
+                                <g fill-rule="nonzero" id="ICON">
+                                    <path d="M22.4189005,2.12483395 C22.7014105,0.994793785 23.8465087,0.307734866 24.9765489,0.590244909 C26.1065891,0.872754951 26.793648,2.01785315 26.5111379,3.14789332 L20.5006642,27.1897884 C20.2181541,28.3198285 19.0730559,29.0068875 17.9430158,28.7243774 C16.8129756,28.4418674 16.1259167,27.2967692 16.4084267,26.166729 L22.4189005,2.12483395 Z"
+                                          id="Line"></path>
+                                    <path d="M29.1967138,6.70164122 C28.4075464,5.84489297 28.4623315,4.51061473 29.3190798,3.72144735 C30.175828,2.93227997 31.5101063,2.98706508 32.2992736,3.84381333 L41.0415336,13.3347224 C41.7904403,14.1477623 41.784556,15.4010816 41.0280479,16.2070535 L32.1196125,25.6979626 C31.3224352,26.547263 29.9877013,26.589517 29.138401,25.7923398 C28.2891007,24.9951625 28.2468466,23.6604286 29.0440239,22.8111283 L36.6103187,14.750115 L29.1967138,6.70164122 Z"
+                                          id="Line-Copy"></path>
+                                    <path d="M0.723986516,6.70164122 C-0.065180864,5.84489297 -0.0103957481,4.51061473 0.846352497,3.72144735 C1.70310074,2.93227997 3.03737899,2.98706508 3.82654637,3.84381333 L12.5688063,13.3347224 C13.3177131,14.1477623 13.3118287,15.4010816 12.5553207,16.2070535 L3.64688521,25.6979626 C2.84970791,26.547263 1.51497407,26.589517 0.665673727,25.7923398 C-0.183626612,24.9951625 -0.225880686,23.6604286 0.571296612,22.8111283 L8.13759142,14.750115 L0.723986516,6.70164122 Z"
+                                          id="Line-Copy-2"
+                                          transform="translate(6.563305, 14.763634) scale(-1, 1) translate(-6.563305, -14.763634) "></path>
+                                </g>
+                            </g>
+                            <rect fill-rule="nonzero" height="45" id="rectangle" stroke="#009B77"
+                                  stroke-linejoin="round" stroke-width="3" width="299" x="10" y="10"></rect>
+                        </g>
+                    </svg>
+                    <svg class="logo mobile" height="65px" preserveAspectRatio="xMidYMid meet" version="1.0"
+                         viewBox="0 0 1600.000000 1600.000000" width="65px" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#009B77" stroke="none"
+                           transform="translate(0.000000,1600.000000) scale(0.100000,-0.100000)">
+                            <path d="M9189 13563 c-35 -7 -88 -25 -118 -40 -71 -35 -160 -119 -193 -180
 -19 -36 -512 -1488 -533 -1573 -7 -26 -216 -653 -230 -690 -14 -35 -322 -962
 -330 -990 -2 -8 -69 -211 -150 -450 -80 -239 -147 -442 -149 -450 -4 -17 -367
 -1105 -1363 -4095 -665 -1997 -677 -2031 -676 -2107 0 -102 40 -190 114 -248
@@ -68,42 +1133,352 @@
 66 -25 30 -49 60 -55 66 -5 6 -26 30 -45 54 -19 24 -40 48 -45 54 -6 6 -42 49
 -80 96 -38 47 -82 99 -96 115 -15 17 -107 127 -205 245 -98 118 -181 217 -184
 220 -3 3 -25 30 -50 60 -25 30 -47 57 -50 60 -3 3 -25 30 -50 60 -63 78 -97
-106 -165 140 -89 45 -175 56 -255 35z"></path></g></svg></a></div><div class="navbar-menu" id="navMenu"><div class="navbar-item"><a class="button is-primary is-outlined is-rounded"><span>Say Hello</span></a></div></div></div></nav><main><section class="hero"><div class="hero-body"><div class="container"><h1>Akos Horvath<br/>Front-end developer</h1><h2>I develop beautiful handcrafted web apps, and I love what I do.</h2><div class="profile-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:99.86403806934058%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFxUlEQVQ4yy2Ue0yTVxjGP5nZ7Y8t2X9LdskyXdw1i5tLFtycmxEBi4DIpYLgFLkIojBQLgoOuwIdSBkXXaEUCgVaS/m4lULBAeUOlYKo4zaQgaII29ggrt/3PitlJ3lz3nNynl/e856chykszmc2Rkp6CPNwfs5hI9/tyGxZWJh3+3v1SdHYWMdIhVa+xNZVPRkcbLx9f9aiePj7jOftIcvWjbPLSwsOq6urdkZ/f699ZjLykrY0jhq2bOTz8/f3r6ysDPPcU8w/WEZWfi08/RPwjUCIuNjzaO80YuHhXdwd6xxb/WtFsKE57Mowi48n7HpGphAxMZJI+6LZUJ6kqcnDyso8eodGOJ+gBKvroXB+v+sR+tpJQAf3OfEeBzyteXkybn1tAQCH9fU10YZWdPVF5p+//2QYScFF+zWjrhxJ6u2rhazwAhmbZNb8TCn5Oe8n/8OuJDzkRL4eziRw+YoCPAR0wsuDjHUqzkbkbYHl5fviDcaDxd/sLOaDI+86eUftRVxqEEmlkbyuNAUXg/3ogtNnlO1/CJqEs1AnReGSnwBhh/aR085t9NnHr6GpKY2fHSnnOtpjYegK87DDXvJgHHZ57LI4eu7EuQx3q86YiNyMUEoWHqTR/DSs9bSDn54AzU5h3dyPx/p6qGNPk/POdyhTLIS5R8zpm4JtvU0btxX7HJN7NcftcloUgmL2ct9lCyhT60uZGb5UfEaItQETaGoS/06Ng5uZAjc+hvX+bqx1myCPDqFmdTGB+wury7PW9T8eYGqg14/xSt5TdDbfHX7pn1vPXHchSYMf/XjdF6XnAvDvrUFgagqYmQRNj4MfvwOyVQnLMBoyU9Gsk9HwZCNZZvTWvoEqXMuIVDHSmsiRsq5EsEM/8M1DmdQ6+hO6DVnoyhZhRlsKc54IrVfi8EAjx5JOgY7UOJikqagXXwarTsXNYQnpulO4hltXUDcgusVU1p9daum8jM4eMXV3iam1JwUWgwRz5UUYk1+FROiKGJfdmLiWjts/p0Pw0Zs4tnsHlJEnwWrjoOiOoEpTDM92n0dNR+wco6wJXKpti4C6LYTY9kiq64xCb4sIv1eUgL9jBn/PAqulD5y5F8utzZitlGOllcVERTFadcmoNyeQyhTNKzpjkG0ImWNK2cDRamModC2n+eqWSFIag6FqCoEpOwHrnbYXHhvBUxuMG74F68golhpugIZ6cFdegGp1ODS90SQ1BHOXGgMQqnEfZgqrvOU1hpNQ131rtQWp6o5RuTEAP8fvx6JWg7WOFqw2VOBRlQKDmSKMSJLxT30FOkSxkGsCSHozjC6wgdZLtkLiq49XMiKFk3uh1gtKrTen0LiTSutDtcZgij7tB/bcKTwqk6LFdw8Gwz3QGuGDvL0fou3MURSEu6FAHUjfa/0RpBRYLzQEIq0pUsgwzswzWSrBSIn+KK7f8LLKb7hDaYin8BQtCT94HaXuu2CKPY7HShmmJVfABrkh+uO3EeS7neJZNyRqhVwiK8RFzdEJc3Pa85tuU+rmIqvxQValCy8uceSL9RpUmziKOBZKzq+9gJIAAWYl52AOOQCVcB8JdrxKp5NSIKpP5GPL3biYCj+Elfl42WGFlcfsHzpL5pyiNcRA11bFsx2LVrbjCRS6SQo46E5Htr1MuY7bKfuL9yh055v0yY5t+OJECfeT/k9OYzLje3mMZINxvavSgZEWxjMzgN2+6m5OpjT1PUVL3yoa2h9yZfoFq7jIwvkLw/h977/B7377Fc7107es2xwjOKfoFmTq15DTuJZhr2wvw+RoTJsGm1uSviW3NdcOLau/51rWOHO75pcl3Gh7glztHMRlczh+NhdBh48i1NMbgjgTIgof3ZPo5jyZ/0dObf+mwcaJlJsb8h8YFavZ9LNP9VuTi8Y8ZdUTijz1r/3ZqjtTCdnG6YNR7MDh4znKE+dV3l/q8ay9VfWLDgUN03bZqbQQ5j8UfdEjA2vADgAAAABJRU5ErkJggg==" alt="profile" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/7794a94aee87a282596366b6e83bd647/705dd/profile.png 75w,
-/static/7794a94aee87a282596366b6e83bd647/2bd34/profile.png 150w,
-/static/7794a94aee87a282596366b6e83bd647/69ecd/profile.png 300w,
-/static/7794a94aee87a282596366b6e83bd647/419be/profile.png 450w,
-/static/7794a94aee87a282596366b6e83bd647/3cf9a/profile.png 600w,
-/static/7794a94aee87a282596366b6e83bd647/b3eb1/profile.png 900w,
-/static/7794a94aee87a282596366b6e83bd647/e7d0f/profile.png 1471w" src="/static/7794a94aee87a282596366b6e83bd647/69ecd/profile.png" alt="profile" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></div><div class="hero-foot"><div class="container"><img class="is-bottom" alt="hero" src="/static/devices-c6098c56f800dfba23bef5d3c10e95b8.svg"/></div></div></section><section class="intro"><div class="container"><h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Hi, I’m Akos. Nice to meet you.</h1><h2 class="subtitle is-size-5-desktop">Since beginning my journey as a front-end developer nearly 4 years ago, I&#x27;ve done remote work on streaming platforms, worked for agencies and collaborated with talented people to create digital products for both business and consumer use. I&#x27;m quietly confident, naturally curious, and perpetually improving my skills.</h2></div></section><section class="skills"><div class="container"><div class="column"><img class="icon-frontend" alt="icon-frontend" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjUwcHgiIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDUwIDQ4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBpZD0iV2Vic2l0ZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkhvbWUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02OTUuMDAwMDAwLCAtMTQ0MS4wMDAwMDApIiBmaWxsPSIjMDA5Qjc3Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTc0Mi42MTkwNDgsMTQ4NS4zOTE2IEM3NDIuNjE5MDQ4LDE0ODYuMDU3NiA3NDIuMDc5NzYyLDE0ODYuNiA3NDEuNDIzODEsMTQ4Ni42IEw2OTguNTc2MTksMTQ4Ni42IEM2OTcuOTE0Mjg2LDE0ODYuNiA2OTcuMzgwOTUyLDE0ODYuMDYyNCA2OTcuMzgwOTUyLDE0ODUuMzkxNiBMNjk3LjM4MDk1MiwxNDU5IEw2OTcuMzgwOTUyLDE0NTQuMiBMNjk3LjM4MDk1MiwxNDUzIEw3MDAuOTUyMzgxLDE0NTMgTDcwOC4wOTUyMzgsMTQ1MyBMNzExLjY2NjY2NywxNDUzIEw3MTUuMjM4MDk1LDE0NTMgTDczMC4xOTA0NzYsMTQ1MyBMNzQyLjYxOTA0OCwxNDUzIEw3NDIuNjE5MDQ4LDE0NTkgTDc0Mi42MTkwNDgsMTQ4NS4zOTE2IFogTTY5OC41NzYxOSwxNDQzLjQgTDcwMC45NTIzODEsMTQ0My40IEw3MDguMDk1MjM4LDE0NDMuNCBMNzExLjY2NjY2NywxNDQzLjQgTDcxNS4yMzgwOTUsMTQ0My40IEw3NDEuNDIzODEsMTQ0My40IEM3NDIuMDgyMTQzLDE0NDMuNCA3NDIuNjEzMDk1LDE0NDMuOTM0IDc0Mi42MTc4NTcsMTQ0NC42IEM3NDIuNjE3ODU3LDE0NDQuNjAyNCA3NDIuNjE5MDQ4LDE0NDQuNjA0OCA3NDIuNjE5MDQ4LDE0NDQuNjA4NCBMNzQyLjYxOTA0OCwxNDUwLjYgTDcxNS4yMzgwOTUsMTQ1MC42IEw3MTEuNjY2NjY3LDE0NTAuNiBMNzA4LjA5NTIzOCwxNDUwLjYgTDcwMC45NTIzODEsMTQ1MC42IEw2OTcuMzgwOTUyLDE0NTAuNiBMNjk3LjM4MDk1MiwxNDQ0LjYwODQgQzY5Ny4zODA5NTIsMTQ0NC42MDQ4IDY5Ny4zODIxNDMsMTQ0NC42MDI0IDY5Ny4zODIxNDMsMTQ0NC42IEM2OTcuMzg2OTA1LDE0NDMuOTM4OCA2OTcuOTIyNjE5LDE0NDMuNCA2OTguNTc2MTksMTQ0My40IEw2OTguNTc2MTksMTQ0My40IFogTTc0NC45OTg4MSwxNDQ0LjYgQzc0NC45OTg4MSwxNDQ0LjYwMjQgNzQ1LDE0NDQuNjA2IDc0NSwxNDQ0LjYwODQgTDc0NSwxNDU5IEw3NDUsMTQ4NS4zOTE2IEM3NDUsMTQ4Ny4zODQ4IDc0My4zOTI4NTcsMTQ4OSA3NDEuNDIzODEsMTQ4OSBMNjk4LjU3NjE5LDE0ODkgQzY5Ni42MDExOSwxNDg5IDY5NSwxNDg3LjM4ODQgNjk1LDE0ODUuMzkxNiBMNjk1LDE0NTkgTDY5NSwxNDU0LjIgTDY5NSwxNDQ0LjYwODQgQzY5NSwxNDQ0LjYwNiA2OTUuMDAxMTksMTQ0NC42MDI0IDY5NS4wMDExOSwxNDQ0LjYgQzY5NS4wMDQ3NjIsMTQ0My4wMzY0IDY5Ni4wMDIzODEsMTQ0MS43MTg4IDY5Ny4zODA5NTIsMTQ0MS4yMjIgQzY5Ny43NTU5NTIsMTQ0MS4wODY0IDY5OC4xNTQ3NjIsMTQ0MSA2OTguNTc2MTksMTQ0MSBMNzAwLjk1MjM4MSwxNDQxIEw3MDguMDk1MjM4LDE0NDEgTDcxMS42NjY2NjcsMTQ0MSBMNzE1LjIzODA5NSwxNDQxIEw3NDEuNDIzODEsMTQ0MSBDNzQzLjM5NjQyOSwxNDQxIDc0NC45OTQwNDgsMTQ0Mi42MDY4IDc0NC45OTg4MSwxNDQ0LjYgWiBNNzAwLjk1MjM4MSwxNDQ4LjE5OTc2IEM3MDEuNjEwNzE0LDE0NDguMTk5NzYgNzAyLjE0Mjg1NywxNDQ3LjY2MzM2IDcwMi4xNDI4NTcsMTQ0Ni45OTk3NiBDNzAyLjE0Mjg1NywxNDQ2LjMzNjE2IDcwMS42MTA3MTQsMTQ0NS43OTk3NiA3MDAuOTUyMzgxLDE0NDUuNzk5NzYgQzcwMC4yOTQwNDgsMTQ0NS43OTk3NiA2OTkuNzYxOTA1LDE0NDYuMzM2MTYgNjk5Ljc2MTkwNSwxNDQ2Ljk5OTc2IEM2OTkuNzYxOTA1LDE0NDcuNjYzMzYgNzAwLjI5NDA0OCwxNDQ4LjE5OTc2IDcwMC45NTIzODEsMTQ0OC4xOTk3NiBaIE03MDQuNTIzODEsMTQ0OC4xOTk3NiBDNzA1LjE4MjE0MywxNDQ4LjE5OTc2IDcwNS43MTQyODYsMTQ0Ny42NjMzNiA3MDUuNzE0Mjg2LDE0NDYuOTk5NzYgQzcwNS43MTQyODYsMTQ0Ni4zMzYxNiA3MDUuMTgyMTQzLDE0NDUuNzk5NzYgNzA0LjUyMzgxLDE0NDUuNzk5NzYgQzcwMy44NjU0NzYsMTQ0NS43OTk3NiA3MDMuMzMzMzMzLDE0NDYuMzM2MTYgNzAzLjMzMzMzMywxNDQ2Ljk5OTc2IEM3MDMuMzMzMzMzLDE0NDcuNjYzMzYgNzAzLjg2NTQ3NiwxNDQ4LjE5OTc2IDcwNC41MjM4MSwxNDQ4LjE5OTc2IFogTTcwOC4wOTUyMzgsMTQ0OC4xOTk3NiBDNzA4Ljc1MzU3MSwxNDQ4LjE5OTc2IDcwOS4yODU3MTQsMTQ0Ny42NjMzNiA3MDkuMjg1NzE0LDE0NDYuOTk5NzYgQzcwOS4yODU3MTQsMTQ0Ni4zMzYxNiA3MDguNzUzNTcxLDE0NDUuNzk5NzYgNzA4LjA5NTIzOCwxNDQ1Ljc5OTc2IEM3MDcuNDM2OTA1LDE0NDUuNzk5NzYgNzA2LjkwNDc2MiwxNDQ2LjMzNjE2IDcwNi45MDQ3NjIsMTQ0Ni45OTk3NiBDNzA2LjkwNDc2MiwxNDQ3LjY2MzM2IDcwNy40MzY5MDUsMTQ0OC4xOTk3NiA3MDguMDk1MjM4LDE0NDguMTk5NzYgWiBNNzMwLjM2NTQ3NiwxNDYxLjc1MTM2IEM3MzAuMzEzMDk1LDE0NjEuNjk5NzYgNzMwLjI0NzYxOSwxNDYxLjY3NDU2IDczMC4xOTA0NzYsMTQ2MS42MzM3NiBDNzI5LjcyNjE5LDE0NjEuMzEwOTYgNzI5LjA5NTIzOCwxNDYxLjMzMzc2IDcyOC42ODIxNDMsMTQ2MS43NTEzNiBDNzI4LjIxNjY2NywxNDYyLjIyMDU2IDcyOC4yMTY2NjcsMTQ2Mi45Nzg5NiA3MjguNjgyMTQzLDE0NjMuNDQ4MTYgTDczMC4xOTA0NzYsMTQ2NC45Njg1NiBMNzMzLjcyNjE5LDE0NjguNTMyNTYgTDczMC4xOTA0NzYsMTQ3Mi4wOTg5NiBMNzI4LjY4MjE0MywxNDczLjYxOTM2IEM3MjguMjE2NjY3LDE0NzQuMDg2MTYgNzI4LjIxNjY2NywxNDc0Ljg0Njk2IDcyOC42ODIxNDMsMTQ3NS4zMTYxNiBDNzI5LjA5NTIzOCwxNDc1LjczMTM2IDcyOS43MjYxOSwxNDc1Ljc1Nzc2IDczMC4xOTA0NzYsMTQ3NS40MzI1NiBDNzMwLjI0NzYxOSwxNDc1LjM5Mjk2IDczMC4zMTMwOTUsMTQ3NS4zNjg5NiA3MzAuMzY1NDc2LDE0NzUuMzE2MTYgTDczNi4yNTIzODEsMTQ2OS4zODA5NiBDNzM2LjcxNzg1NywxNDY4LjkxMjk2IDczNi43MTc4NTcsMTQ2OC4xNTMzNiA3MzYuMjUyMzgxLDE0NjcuNjg0MTYgTDczMC4zNjU0NzYsMTQ2MS43NTEzNiBaIE03MjMuNDgwNzE0LDE0NTcuODgxODQgQzcyMy4wOTczODEsMTQ1Ny43MzA2NCA3MjIuNjk2MTksMTQ1Ny44MTIyNCA3MjIuMzgwNzE0LDE0NTguMDMxODQgQzcyMi4xOTI2MTksMTQ1OC4xNjI2NCA3MjIuMDI3MTQzLDE0NTguMzMxODQgNzIxLjkzNzg1NywxNDU4LjU2MjI0IEw3MjEuNzY4ODEsMTQ1OS4wMDAyNCBMNzE3Ljc1MDk1MiwxNDY5LjM0NjY0IEw3MTQuMTI5NTI0LDE0NzguNjc3ODQgQzcxMy44ODkwNDgsMTQ3OS4yOTQ2NCA3MTQuMTkxNDI5LDE0NzkuOTkwNjQgNzE0LjgwNDUyNCwxNDgwLjIzMTg0IEM3MTUuNDE3NjE5LDE0ODAuNDczMDQgNzE2LjEwODA5NSwxNDgwLjE2ODI0IDcxNi4zNDczODEsMTQ3OS41NTI2NCBMNzE3Ljc1MDk1MiwxNDc1LjkzMzQ0IEw3MjIuMzgwNzE0LDE0NjQuMDA2NjQgTDcyNC4xNTQ1MjQsMTQ1OS40MzcwNCBDNzI0LjIxMDQ3NiwxNDU5LjI5MzA0IDcyNC4yMzA3MTQsMTQ1OS4xNDU0NCA3MjQuMjMwNzE0LDE0NTkuMDAwMjQgQzcyNC4yMzA3MTQsMTQ1OC41MjAyNCA3MjMuOTUwOTUyLDE0NTguMDY2NjQgNzIzLjQ4MDcxNCwxNDU3Ljg4MTg0IFogTTcxMS40NTA0NzYsMTQ2My40NDgxNiBDNzExLjkxNTk1MiwxNDYyLjk3ODk2IDcxMS45MTU5NTIsMTQ2Mi4yMjA1NiA3MTEuNDUwNDc2LDE0NjEuNzUxMzYgQzcxMC45ODUsMTQ2MS4yODIxNiA3MTAuMjMyNjE5LDE0NjEuMjgyMTYgNzA5Ljc2NzE0MywxNDYxLjc1MTM2IEw3MDguMDk1NzE0LDE0NjMuNDM2MTYgTDcwMy44ODAyMzgsMTQ2Ny42ODQxNiBDNzAzLjQxNDc2MiwxNDY4LjE1MzM2IDcwMy40MTQ3NjIsMTQ2OC45MTI5NiA3MDMuODgwMjM4LDE0NjkuMzgwOTYgTDcwOC4wOTU3MTQsMTQ3My42MzAxNiBMNzA5Ljc2NzE0MywxNDc1LjMxNjE2IEM3MTAuMjMyNjE5LDE0NzUuNzg0MTYgNzEwLjk4NSwxNDc1Ljc4NDE2IDcxMS40NTA0NzYsMTQ3NS4zMTYxNiBDNzExLjkxNTk1MiwxNDc0Ljg0Njk2IDcxMS45MTU5NTIsMTQ3NC4wODYxNiA3MTEuNDUwNDc2LDE0NzMuNjE5MzYgTDcwOC4wOTU3MTQsMTQ3MC4yMzY1NiBMNzA2LjQwNTIzOCwxNDY4LjUzMjU2IEw3MDguMDk1NzE0LDE0NjYuODI5NzYgTDcxMS40NTA0NzYsMTQ2My40NDgxNiBaIgogICAgICAgICAgICAgICAgICBpZD0iRlJPTlQtRU5EIi8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"/><h1 class="title is-size-4 is-spaced">Front-end Developer</h1><p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p><p class="list-title text-primary">Languages I speak:</p><p>HTML, CSS, Sass, Javascript, Typescript</p><p class="list-title text-primary">Frameworks:</p><ul><li>VueJs</li><li>Angular</li><li>React</li><li>Bootstrap</li></ul><p class="list-title text-primary">Dev Tools:</p><ul><li>WebStorm</li><li>Git</li><li>Webpack</li><li>Gulp</li><li>Terminal</li></ul></div></div></section><section class="section portfolio"><div class="container"><h1 class="title">My Recent Work</h1><h2 class="subtitle is-size-5-desktop">Here are a few recent design projects.</h2><div class="project-grid"><div class="columns"><div class="column"><figure class="img-figure"><div class="portfolio-img hbo-go-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABWElEQVQ4y2NgGAUDChgZGZmYmOBsIMAqDqJYWFh4eXk5OTl5eHgEBATExMQgGiQkJICCEKVAKSAXwubi4hIWFoba4+3tvX379szMzAsXLly6dOnixYudnZ1Tp059+fLlyZMn5eXlTUxMzp8/f+7cufLycnNzc6CaR48eNTQ0QDW/evXq+PHjd+/evXfv3tatW////w9kAzW8ePFixowZQJHc3NzQ0NBly5YBLbhx4wbQoKdPn5qamoI0AxVBNAPBli1bgJrv3Llz5MiRJ0+ezJo1a8eOHdnZ2Y2NjW/evAGKAA09ffr0gwcPLC0tGXx9fXft2lVQUAB0z/Xr12/evNnR0TFlyhSIiTIyMnZ2dpcvXz58+HBzc7OTkxNQwePHj7u7u0HOZmNjExQUBAYJkASGlpSUFCRUJSUl4QEmIiKipqYGCWEhISE5OTnCUcUIAzijahTQEQAAQqahtrR1q0oAAAAASUVORK5CYII=" alt="hbo-go" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/1b19193576eb2c42daa22d3b38f6c356/705dd/hbo.png 75w,
-/static/1b19193576eb2c42daa22d3b38f6c356/2bd34/hbo.png 150w,
-/static/1b19193576eb2c42daa22d3b38f6c356/69ecd/hbo.png 300w,
-/static/1b19193576eb2c42daa22d3b38f6c356/a4c48/hbo.png 400w" src="/static/1b19193576eb2c42daa22d3b38f6c356/69ecd/hbo.png" alt="hbo-go" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">HBO GO streaming platform development</h1><a class="button is-primary is-outlined is-rounded" href="https://hbogo.hu/" target="_blank" rel="noopener noreferrer"><span>Visit Website</span><span class="icon"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="8px" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></figcaption><div class="overlay"></div></figure></div><div class="column"><figure class="img-figure"><div class="portfolio-img hbo-faq-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEG0lEQVQ4yyWUy28bVRTGZ5+4dux5eN5z79x5z3hsx47HsePYiS07TeKmdR4QgkqaQlQBEhSCQGoRqAWhVpVa2LIM/0Fgywo2iEUXCDZICIVCJEISStskBcJxuPo0mhnpN+c75353KNcJZFldXV3b2vp8a2trc/Oza9eub25u3rv7se14UbnabLXHG82oVB6rNSYnm7PT06PlUc/1LMulZAWlUtzU1MytW3du375z/d33Ll9ev3Hzw9def0NBxLT9UmW8WK66XpAvRvlCqVafyOaGFQUDSCkqhrs0L6dobijJgtJpMUlzLCfIGhFVnZeQqGBJM3gZC4qBiIMNl1ieTpxTWNU1REAIGQgbal+mggwZGQq2FGyrugNSsCMjGx414mEzQGZAAaNqGOkWfFLViKTqsmaAAJM0IiNLxjZcgdSskHjDhl9QzVDSfU6zKVXTDdM1naBvxs70AY1AHTdfwXZG7H/FIW7OCsv5sU5tdrm7cmV94/2X3/ng+StvUqqKdFW1iIFNz8+XAVaQBZYyUT2MGpoZYDuMJmb8UmP11bfv//jrD9t//PT74+29owf7R1RoW3WPuEjTTQ+K9w2fwkGxWqi1Fd0zvPzE7FJxfOrSKxu7j//97c/j7b3DX/YOdw4OqYzjVBxiYWy6Ge10TjBYjEjg+plCVSUecbKjzW797Hylde6rb7/bPzzZOXiy+9cxiOI4nmV52E+AVWyBJGRgTS8Xy2GpDhZMf3i01S2Od7rLL370yacHT57uPzree3T08PBvgNOCIJuWT0xP0y1Vh82wYGNhBLlyw/CGAZ7sPpOvtOZWXlpev/rN/e9PTk6e/nOyu/+Q4tM8TXPQLSZWf7ehOAxc1QVJc3MRwLqT61xYGZ/q1aZ69e5zb924+8WXX//8YOf8+XmKYblUkgYAExtgndgqZEPB0L+TjYDUnbDTWxkeazdmltoLl6L2Qm/t6sbNe2GYp2ioyzCSpARhUZY1hE0IDMQO/INxYgfI8GYWV+szi2OdXqv3QtRebM6vtS5c1C2fSrOswDLpNF8sj6uQUw1yaoiiwvNCmuMZhoED0Jp7FqYVNc9Vzy7V5y7mqh04CxwvUR6S0yyTStGjtaZl+5KkiaIIL+hUfyXOxFk2XW3PNaYX/Pyo4WaDYs0OipBLaJAyVJnj2FQy5WeGK9V64IdISrN0MjY4GBuMgViWi+qdsFAxIbySmovqlWZ3pNa23QwliWCPYWhWFCRZgblhIgsCSw+erlgsNpQYghHohqObrmG5lpNxMgXTzfYrSyLPMjTANM1IoixLgsKzPJNKxM8MDAwAnIgnBEEipmsH+XCkhnULeD83ksmVKIGHkAjgByFdUxGdTCUT8aF4PBGPDyUSQP4Pu14IfflhAf4ofrZkeTmIxn83Sg3m5B7hyAAAAABJRU5ErkJggg==" alt="hbo-faq" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/665ba12e2aa7b3652b09ac6d109d9b5d/705dd/hbo-help.png 75w,
-/static/665ba12e2aa7b3652b09ac6d109d9b5d/2bd34/hbo-help.png 150w,
-/static/665ba12e2aa7b3652b09ac6d109d9b5d/69ecd/hbo-help.png 300w,
-/static/665ba12e2aa7b3652b09ac6d109d9b5d/a4c48/hbo-help.png 400w" src="/static/665ba12e2aa7b3652b09ac6d109d9b5d/69ecd/hbo-help.png" alt="hbo-faq" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">Help Center for HBO GO streaming app, classic faq with modern technologies.</h1><a class="button is-primary is-outlined is-rounded" href="https://helpcenter.hbogo.eu" target="_blank" rel="noopener noreferrer"><span>Visit Website</span><span class="icon"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="8px" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></figcaption><div class="overlay"></div></figure></div><div class="column"><figure class="img-figure"><div class="portfolio-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABTklEQVQ4y71U21KDMBDN//+WlVsbbraKEKAzHdoRnmlI4MGzUGtU7Gg7OrMPu3v25GyWDezouVcb+xuy67zbL8iodmzpcxmFZD5HOHvEZ3I70nQudFmoXKjRQYgkoItkx+426+GlVskTSdkWmeuoJEES0PEjn5ndysDvD4ehaWQcUWbpkXmujGMkAaHA7J+ZsrosAavnpFs/kOaUty1oohdAKDDFmSmL66FUcj40tVwtp1HDoV74ChAKTHF2lpVRhPG01j0mrPcV/IlMM9tXuEhrLeCj7Cz+hby4UyIDX2Vp97iBwaFQZATNk4229ZZujop+t4PRuYC25fdtj+KqyEkqTWlaI2c6BSGSBBX53MAmcZ/3da2rCuOVYXAaWBggRBIQbdv8p3pbEuLjbpj2uCRwECJ5cUmM9VRC6CI/rScc8ZP1vPFh3Pwk/+dP8gpH4wN0V6DRNgAAAABJRU5ErkJggg==" alt="mateannasmink" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/e978b1016c55ebe71c3cb23d573300fd/705dd/mate_anna.png 75w,
-/static/e978b1016c55ebe71c3cb23d573300fd/2bd34/mate_anna.png 150w,
-/static/e978b1016c55ebe71c3cb23d573300fd/69ecd/mate_anna.png 300w,
-/static/e978b1016c55ebe71c3cb23d573300fd/a4c48/mate_anna.png 400w" src="/static/e978b1016c55ebe71c3cb23d573300fd/69ecd/mate_anna.png" alt="mateannasmink" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">Portfolio page for Mate Anna make-up artist</h1><a class="button is-primary is-outlined is-rounded" href="https://mateannasmink.hu/" target="_blank" rel="noopener noreferrer"><span>Visit Website</span><span class="icon"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="8px" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></figcaption><div class="overlay"></div></figure></div><div class="column"><figure class="img-figure"><div class="portfolio-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACVElEQVQ4y2NgGAVUAXPr/OE0CE+v8AXzZ9f4YVW/qicTTq/qzgCz5zeGMyxoCocoWNgYAKYXNPgzLGoMYFzUGMgI07ymM4xhbVcYmL+yPZRhdXcyw+qedIYtE1JBNOOqrhSG5R3xDGt7kxj+/5+PsHVeHaprljYHMW7sjYDz13VHMmzuj2VY35sIdFUmw5yGCNxeVpQSYALRrdlOHHNq/Xzm1vqZwOQqEqxZgT6QO7+sCFkL2MUrutItFrYkKM6sCRdc0BihtKQlgg/F4NvrcoVXd4Qu3DIhyhsm9vVwlcixeUmBIPb//+dZYeIXVlXLbZqYmf//0WJeiNx/pooEB2awJDsrM8hFMvE++tF1qfZrimMs+7NCTSdkh5qmF0VbdsR569dvnxQXURZnV1iV5NIT6GyYmxZi3ZAdbp3KzsZsBtRrDMTyCPczMuQDqVg1OeFGKz3Z6UGOGlv87NQ3BDpoLI3x1D/raa0+a31PXImTqcoKV3O1hWY6sotDXXTqTTQlUySEeaqBej2ZmRi1McLywMwEi91TY/Mfby0QubIyV+vkwnTdU4tyze5urNDZ2J9idHhuvtP//4dZTizMVF3dGZa6dWJU5J+TdQIYBmkqiDBBk4jouu5wJRA72MmQqSffmxkl/XUmisDYi5oCBFZ3hHHqKosxYk+sHaEMyGkPnnya3BnW9cQybOxLAPMXN0cwTigLR9E7o9KHgZODFSGwqS8SSkcA01ok2MatE+PBeMvEVCCdBKTTGTZPSAOrW9EWwrC8LRioNgquF6hvtMgZrAAAQJPPTKgtd2oAAAAASUVORK5CYII=" alt="mateannasmink" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/de6d00f2e643d668dd0bd6cdd84cde04/705dd/bpmua.png 75w,
-/static/de6d00f2e643d668dd0bd6cdd84cde04/2bd34/bpmua.png 150w,
-/static/de6d00f2e643d668dd0bd6cdd84cde04/69ecd/bpmua.png 300w,
-/static/de6d00f2e643d668dd0bd6cdd84cde04/419be/bpmua.png 450w,
-/static/de6d00f2e643d668dd0bd6cdd84cde04/dea62/bpmua.png 513w" src="/static/de6d00f2e643d668dd0bd6cdd84cde04/69ecd/bpmua.png" alt="mateannasmink" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">Portfolio page for a make-up artist located in Budapest</h1><a class="button is-primary is-outlined is-rounded" href="https://mateannasmink.hu/" target="_blank" rel="noopener noreferrer"><span>Visit Website</span><span class="icon"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="8px" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg></span></a></figcaption><div class="overlay"></div></figure></div><div class="column"><figure class="img-figure no-button"><div class="portfolio-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAUBAgME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGt5Mm51Xcx1RiXAf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMRExT/2gAIAQEAAQUCY4EdnY7LLAKvUxbpoMuUKwsYD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB4QAAICAAcAAAAAAAAAAAAAAAABAhEQEiExQVFx/9oACAEBAAY/Amysk4+4SdcCfRuVRoirP//EABsQAAMBAAMBAAAAAAAAAAAAAAABESExQWGB/9oACAEBAAE/IYxqSvI1WJSiPaXA+BIfJFA+6Ieka9OKSfRLMH//2gAMAwEAAgADAAAAEOAXf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EIVi7n//xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhMWFBkf/aAAgBAQABPxBlAwgNYY0FToiWcfulzfpcSrCgx5pWpFB4R7MYMAIU+4WfzoXGpc1HRjPDdCDN/9k=" alt="insider quiz" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/ae1a47e9e51d5a7a7721611f09127c22/d15e9/quiz.jpg 75w,
-/static/ae1a47e9e51d5a7a7721611f09127c22/3e4d1/quiz.jpg 150w,
-/static/ae1a47e9e51d5a7a7721611f09127c22/2cc41/quiz.jpg 300w,
-/static/ae1a47e9e51d5a7a7721611f09127c22/eacee/quiz.jpg 400w" src="/static/ae1a47e9e51d5a7a7721611f09127c22/2cc41/quiz.jpg" alt="insider quiz" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">Insider quiz web application for a big automotive company</h1></figcaption><div class="overlay"></div></figure></div><div class="column"><figure class="img-figure no-button"><div class="portfolio-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBQT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAB145tkvazRVvCFRAX/8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIAERIQEzH/2gAIAQEAAQUCnvHZoJmMzXQKmaM//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAESEP/aAAgBAwEBPwGGQLP/xAAZEQACAwEAAAAAAAAAAAAAAAAAARASEzH/2gAIAQIBAT8BujVD7H//xAAbEAABBAMAAAAAAAAAAAAAAAAAARARITJBkf/aAAgBAQAGPwJ7MlKTpO3/AP/EAB0QAAMAAgIDAAAAAAAAAAAAAAABETFRIXFBYfD/2gAIAQEAAT8hE0GoyoX2qJDr+nRjnz5sxWegzz5FtP/aAAwDAQACAAMAAAAQ1Md+/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIfD/2gAIAQMBAT8QC+Q+FZ//xAAZEQACAwEAAAAAAAAAAAAAAAAAAREhcZH/2gAIAQIBAT8QLDotBpSf/8QAIBAAAgICAAcAAAAAAAAAAAAAAAERITFBUWFxgZGhsf/aAAgBAQABPxCCgVMmVwGw70R/WTRAlhDvlhPyNDX1kp9C7Us1I1+ohZu9n//Z" alt="insider quiz" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/b228aa4d25e52f06ef35fd8628f042a0/d15e9/cms.jpg 75w,
-/static/b228aa4d25e52f06ef35fd8628f042a0/3e4d1/cms.jpg 150w,
-/static/b228aa4d25e52f06ef35fd8628f042a0/2cc41/cms.jpg 300w,
-/static/b228aa4d25e52f06ef35fd8628f042a0/eacee/cms.jpg 400w" src="/static/b228aa4d25e52f06ef35fd8628f042a0/2cc41/cms.jpg" alt="insider quiz" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><figcaption><h1 class="title">CMS for US based e-learning platform</h1></figcaption><div class="overlay"></div></figure></div></div></div></div></section><section class="section clients is-medium is-white has-text-centered"><div class="container"><div class="columns"><div class="column"><h1 class="title">I&#x27;m proud to have collaborated with some awesome companies:</h1></div></div><div class="client-grid"><div class="column"><div class="client-img attrecto-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:41.25%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABkUlEQVQoz2NgAIGOWzHS3bc/x0198j9m+vP/yX0Xtv6PVOBnIAewdNw0Ypjy9L/+jHuvs+bdXOE38/nm1t7D/7/HaC8FyXfW1nA319VyNjQ0SNbX1wsDaWYgZoPS7EAxPiAWALJBahgZGJe96mZY++G/z9aHq7K3Xv8Rvvvl6XWt9Zf/h8t+2JofrVHY0qXbVF9nB1TsA8S+QOwMNMAFSLsDaT0grQXEoUBsAMSaDEwbPkxgWP/pv9fGx3Oz9r76H7b91e0nfQ4F/7Ok7+7MijAuaO02bKyvCwIq1gdiSyCWhxrgBDTQDEjrArEXEJsDsR4D47r39ow7f/3n2fjieuPKrZsOTK4M/d8ode5vs+JekJe7Gir4WhuqOYCa2YCYFSQG1MgKxdxADJIDifEBMRM4HG12zS5NOpvzv2eP3bsvHbI3/jcq3P3VrCDDQB74DyZnnpHUyD3rkb5svU3Yf0YGZpDY9yZlRobm/wzAMAS5AI6hLsLgg2gGu90zGBhW/GfCsKZKhhFMNykAsTzRzgMAdYXTe0pT1KEAAAAASUVORK5CYII=" alt="attrecto" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/b07aae7d765cc81c6f6d7557375b2367/705dd/attrecto.png 75w,
-/static/b07aae7d765cc81c6f6d7557375b2367/2bd34/attrecto.png 150w,
-/static/b07aae7d765cc81c6f6d7557375b2367/69ecd/attrecto.png 300w,
-/static/b07aae7d765cc81c6f6d7557375b2367/87b84/attrecto.png 320w" src="/static/b07aae7d765cc81c6f6d7557375b2367/69ecd/attrecto.png" alt="attrecto" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><div class="column"><div class="client-img hbo-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:71.625%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQ4y1XUSyhEYRQH8I8MKSzEwmO8Ga+FqPF+FrPw2thIXtmIhUdJmWRhQcjCo0TJSh6ZUkpWNl7FUpEFSjYkxEJi+J/xnzpu/eae+917zne+b+6MMcb8UC5UMz6FbcbP8Mj4CppVzj3vS3wHyWC+OFAAtYwPYYNxK1hU4jfPqzALk7DPsWUp6ObFNdwwPoEt1e0uC91y7BwWGH/CFLzBky7oVrNLQRfjD7WKY57PYE0tfQYe4F0vuQ5aGB/BJuNmLvlVFfhiEVn2HKxzfMeorrKhSnXiXfKBKv7MfftR23Ghru26YB7UqIIu9aC3qx7zdwzCi7p3CZW8Z4qhFIIhFCogC9KgDPKhEOLM/yMMytmIhWO+8hENkSxgY2I8JEEUxPA6hWycUOIIiIV05kstT4IkB0IQzyEQwIelEz+ycRLDZ5P5rD8ksDGzyGUn8iWWo42djkEfExqgH5zszs73r52/snHIkeQVtis6WbCbSUswwq6cau96oQimoR5KOLk05XkNUrkfA9yfLrAyUbrO4Jj8PJvAwbiRk8gXN8S9NhMwyhsOvjJW7pEsK5zfvA/swTCfzfT+GbDQPHT8AqNYjAnAUz5OAAAAAElFTkSuQmCC" alt="hbo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 300px) 100vw, 300px" srcset="/static/7d32f93aa5ae0739dde4d15da011b554/705dd/hbo.png 75w,
-/static/7d32f93aa5ae0739dde4d15da011b554/2bd34/hbo.png 150w,
-/static/7d32f93aa5ae0739dde4d15da011b554/69ecd/hbo.png 300w,
-/static/7d32f93aa5ae0739dde4d15da011b554/419be/hbo.png 450w,
-/static/7d32f93aa5ae0739dde4d15da011b554/3cf9a/hbo.png 600w,
-/static/7d32f93aa5ae0739dde4d15da011b554/ae92a/hbo.png 800w" src="/static/7d32f93aa5ae0739dde4d15da011b554/69ecd/hbo.png" alt="hbo" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div><div class="column"><div class="client-img supercharge-img gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQ4y+3Tv0rDUBTH8SRV+2cS/wy6RVQCIjiIDipKRaogLa2Kf9EiUju0YsF0cCj6WL5En8A30NVZvxd+kSAdcotDEQ98SLlJT84998Rx/kJ4cMWTwYpdNHGJNeQxo3uubbIGjjGCK7zjyTZR1KMNVTWEF3yggBVV6STtZ0rXGqawji72tG62W+8n4TWW9fsEn6hgDLc2CaP+zGtrbbzhUevN2IusejmMZ7ziFD7uVa1VsujBafXLbLGEM8wlTTKLpR5Jf4afNOEmLhBoNIo4x6Ec6bRbqnYbVWxpTo1yPOEiHjS8HV1D3GAHB9jXl3KngTcnvar/hSrkOyaQRUanG2h9VGOUxqSG3Hw147q/oBeZ53LOf/xKfAHmYyD4I49iGAAAAABJRU5ErkJggg==" alt="supercharge" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><img sizes="(max-width: 256px) 100vw, 256px" srcset="/static/3a65682fd7fe21abe18ad679aa0e6a14/4cdea/supercharge.png 75w,
-/static/3a65682fd7fe21abe18ad679aa0e6a14/c8e05/supercharge.png 150w,
-/static/3a65682fd7fe21abe18ad679aa0e6a14/09361/supercharge.png 256w" src="/static/3a65682fd7fe21abe18ad679aa0e6a14/09361/supercharge.png" alt="supercharge" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></div></div></div></section></main><footer id="footer" class="accent"><div class="container is-narrow"><div class="logo-container"><svg class="logo desktop" width="319px" height="65px" viewBox="0 0 319 65" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="logo" stroke="none" stroke-width="1" fill="transparent" fill-rule="evenodd"><g id="content" transform="translate(28.000000, 18.000000)" fill="#fff"><path d="M66.936,19.736 L59.832,19.736 L58.512,23 L53.664,23 L61.08,6.2 L65.76,6.2 L73.2,23 L68.256,23 L66.936,19.736 Z M65.544,16.232 L63.384,10.856 L61.224,16.232 L65.544,16.232 Z M81.024,16.904 L79.248,18.8 L79.248,23 L74.544,23 L74.544,6.2 L79.248,6.2 L79.248,13.184 L85.752,6.2 L90.984,6.2 L84.12,13.64 L91.344,23 L85.824,23 L81.024,16.904 Z M101.064,23.336 C99.2879911,23.336 97.6920071,22.9600038 96.276,22.208 C94.8599929,21.4559962 93.748004,20.4160066 92.94,19.088 C92.131996,17.7599934 91.728,16.2640083 91.728,14.6 C91.728,12.9359917 92.131996,11.4400066 92.94,10.112 C93.748004,8.78399336 94.8599929,7.74400376 96.276,6.992 C97.6920071,6.23999624 99.2879911,5.864 101.064,5.864 C102.840009,5.864 104.435993,6.23999624 105.852,6.992 C107.268007,7.74400376 108.379996,8.78399336 109.188,10.112 C109.996004,11.4400066 110.4,12.9359917 110.4,14.6 C110.4,16.2640083 109.996004,17.7599934 109.188,19.088 C108.379996,20.4160066 107.268007,21.4559962 105.852,22.208 C104.435993,22.9600038 102.840009,23.336 101.064,23.336 Z M101.064,19.4 C101.912004,19.4 102.679997,19.200002 103.368,18.8 C104.056003,18.399998 104.599998,17.8360036 105,17.108 C105.400002,16.3799964 105.6,15.5440047 105.6,14.6 C105.6,13.6559953 105.400002,12.8200036 105,12.092 C104.599998,11.3639964 104.056003,10.800002 103.368,10.4 C102.679997,9.999998 101.912004,9.8 101.064,9.8 C100.215996,9.8 99.4480034,9.999998 98.76,10.4 C98.0719966,10.800002 97.528002,11.3639964 97.128,12.092 C96.727998,12.8200036 96.528,13.6559953 96.528,14.6 C96.528,15.5440047 96.727998,16.3799964 97.128,17.108 C97.528002,17.8360036 98.0719966,18.399998 98.76,18.8 C99.4480034,19.200002 100.215996,19.4 101.064,19.4 Z M118.8,23.336 C117.439993,23.336 116.120006,23.1680017 114.84,22.832 C113.559994,22.4959983 112.520004,22.0480028 111.72,21.488 L113.28,17.984 C114.032004,18.4800025 114.903995,18.8799985 115.896,19.184 C116.888005,19.4880015 117.863995,19.64 118.824,19.64 C120.648009,19.64 121.56,19.1840046 121.56,18.272 C121.56,17.7919976 121.300003,17.4360012 120.78,17.204 C120.259997,16.9719988 119.424006,16.7280013 118.272,16.472 C117.007994,16.1999986 115.952004,15.9080016 115.104,15.596 C114.255996,15.2839984 113.528003,14.7840034 112.92,14.096 C112.311997,13.4079966 112.008,12.4800058 112.008,11.312 C112.008,10.2879949 112.287997,9.36400412 112.848,8.54 C113.408003,7.71599588 114.243994,7.0640024 115.356,6.584 C116.468006,6.1039976 117.831992,5.864 119.448,5.864 C120.552006,5.864 121.639995,5.98799876 122.712,6.236 C123.784005,6.48400124 124.727996,6.8479976 125.544,7.328 L124.08,10.856 C122.479992,9.99199568 120.928008,9.56 119.424,9.56 C118.479995,9.56 117.792002,9.6999986 117.36,9.98 C116.927998,10.2600014 116.712,10.6239978 116.712,11.072 C116.712,11.5200022 116.967997,11.8559989 117.48,12.08 C117.992003,12.3040011 118.815994,12.5359988 119.952,12.776 C121.232006,13.0480014 122.291996,13.3399984 123.132,13.652 C123.972004,13.9640016 124.699997,14.4599966 125.316,15.14 C125.932003,15.8200034 126.24,16.7439942 126.24,17.912 C126.24,18.920005 125.960003,19.8319959 125.4,20.648 C124.839997,21.4640041 124.000006,22.1159976 122.88,22.604 C121.759994,23.0920024 120.400008,23.336 118.8,23.336 Z M151.392,6.2 L151.392,23 L146.64,23 L146.64,16.448 L140.16,16.448 L140.16,23 L135.408,23 L135.408,6.2 L140.16,6.2 L140.16,12.512 L146.64,12.512 L146.64,6.2 L151.392,6.2 Z M163.224,23.336 C161.447991,23.336 159.852007,22.9600038 158.436,22.208 C157.019993,21.4559962 155.908004,20.4160066 155.1,19.088 C154.291996,17.7599934 153.888,16.2640083 153.888,14.6 C153.888,12.9359917 154.291996,11.4400066 155.1,10.112 C155.908004,8.78399336 157.019993,7.74400376 158.436,6.992 C159.852007,6.23999624 161.447991,5.864 163.224,5.864 C165.000009,5.864 166.595993,6.23999624 168.012,6.992 C169.428007,7.74400376 170.539996,8.78399336 171.348,10.112 C172.156004,11.4400066 172.56,12.9359917 172.56,14.6 C172.56,16.2640083 172.156004,17.7599934 171.348,19.088 C170.539996,20.4160066 169.428007,21.4559962 168.012,22.208 C166.595993,22.9600038 165.000009,23.336 163.224,23.336 Z M163.224,19.4 C164.072004,19.4 164.839997,19.200002 165.528,18.8 C166.216003,18.399998 166.759998,17.8360036 167.16,17.108 C167.560002,16.3799964 167.76,15.5440047 167.76,14.6 C167.76,13.6559953 167.560002,12.8200036 167.16,12.092 C166.759998,11.3639964 166.216003,10.800002 165.528,10.4 C164.839997,9.999998 164.072004,9.8 163.224,9.8 C162.375996,9.8 161.608003,9.999998 160.92,10.4 C160.231997,10.800002 159.688002,11.3639964 159.288,12.092 C158.887998,12.8200036 158.688,13.6559953 158.688,14.6 C158.688,15.5440047 158.887998,16.3799964 159.288,17.108 C159.688002,17.8360036 160.231997,18.399998 160.92,18.8 C161.608003,19.200002 162.375996,19.4 163.224,19.4 Z M182.4,18.536 L179.808,18.536 L179.808,23 L175.056,23 L175.056,6.2 L182.736,6.2 C184.256008,6.2 185.575994,6.45199748 186.696,6.956 C187.816006,7.46000252 188.679997,8.17999532 189.288,9.116 C189.896003,10.0520047 190.2,11.1519937 190.2,12.416 C190.2,13.6320061 189.916003,14.6919955 189.348,15.596 C188.779997,16.5000045 187.968005,17.2079974 186.912,17.72 L190.536,23 L185.448,23 L182.4,18.536 Z M185.4,12.416 C185.4,11.6319961 185.152002,11.0240022 184.656,10.592 C184.159998,10.1599978 183.424005,9.944 182.448,9.944 L179.808,9.944 L179.808,14.864 L182.448,14.864 C183.424005,14.864 184.159998,14.6520021 184.656,14.228 C185.152002,13.8039979 185.4,13.2000039 185.4,12.416 Z M209.856,6.2 L202.656,23 L197.976,23 L190.8,6.2 L195.936,6.2 L200.496,17.144 L205.152,6.2 L209.856,6.2 Z M222.456,19.736 L215.352,19.736 L214.032,23 L209.184,23 L216.6,6.2 L221.28,6.2 L228.72,23 L223.776,23 L222.456,19.736 Z M221.064,16.232 L218.904,10.856 L216.744,16.232 L221.064,16.232 Z M233.64,9.968 L228.48,9.968 L228.48,6.2 L243.528,6.2 L243.528,9.968 L238.392,9.968 L238.392,23 L233.64,23 L233.64,9.968 Z M261.288,6.2 L261.288,23 L256.536,23 L256.536,16.448 L250.056,16.448 L250.056,23 L245.304,23 L245.304,6.2 L250.056,6.2 L250.056,12.512 L256.536,12.512 L256.536,6.2 L261.288,6.2 Z" id="Akos-Horvath"></path><g id="ICON" fill-rule="nonzero"><path d="M22.4189005,2.12483395 C22.7014105,0.994793785 23.8465087,0.307734866 24.9765489,0.590244909 C26.1065891,0.872754951 26.793648,2.01785315 26.5111379,3.14789332 L20.5006642,27.1897884 C20.2181541,28.3198285 19.0730559,29.0068875 17.9430158,28.7243774 C16.8129756,28.4418674 16.1259167,27.2967692 16.4084267,26.166729 L22.4189005,2.12483395 Z" id="Line"></path><path d="M29.1967138,6.70164122 C28.4075464,5.84489297 28.4623315,4.51061473 29.3190798,3.72144735 C30.175828,2.93227997 31.5101063,2.98706508 32.2992736,3.84381333 L41.0415336,13.3347224 C41.7904403,14.1477623 41.784556,15.4010816 41.0280479,16.2070535 L32.1196125,25.6979626 C31.3224352,26.547263 29.9877013,26.589517 29.138401,25.7923398 C28.2891007,24.9951625 28.2468466,23.6604286 29.0440239,22.8111283 L36.6103187,14.750115 L29.1967138,6.70164122 Z" id="Line-Copy"></path><path d="M0.723986516,6.70164122 C-0.065180864,5.84489297 -0.0103957481,4.51061473 0.846352497,3.72144735 C1.70310074,2.93227997 3.03737899,2.98706508 3.82654637,3.84381333 L12.5688063,13.3347224 C13.3177131,14.1477623 13.3118287,15.4010816 12.5553207,16.2070535 L3.64688521,25.6979626 C2.84970791,26.547263 1.51497407,26.589517 0.665673727,25.7923398 C-0.183626612,24.9951625 -0.225880686,23.6604286 0.571296612,22.8111283 L8.13759142,14.750115 L0.723986516,6.70164122 Z" id="Line-Copy-2" transform="translate(6.563305, 14.763634) scale(-1, 1) translate(-6.563305, -14.763634) "></path></g></g><rect id="rectangle" stroke="#fff" stroke-width="3" stroke-linejoin="round" fill-rule="nonzero" x="10" y="10" width="299" height="45"></rect></g></svg><svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="logo mobile" width="65px" height="65px" viewBox="0 0 1600.000000 1600.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,1600.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none"><path d="M9189 13563 c-35 -7 -88 -25 -118 -40 -71 -35 -160 -119 -193 -180
+106 -165 140 -89 45 -175 56 -255 35z"></path>
+                        </g>
+                    </svg>
+                </a></div>
+                <div class="navbar-menu" id="navMenu">
+                    <div class="navbar-item"><a class="button is-primary is-outlined is-rounded"><span>Say Hello</span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="container"><h1>Akos Horvath<br/>Front-end developer</h1>
+                        <h2>I develop beautiful handcrafted web apps, and I love what I do.</h2>
+                        <div class="profile-img gatsby-image-wrapper" style="position:relative;overflow:hidden">
+                            <div style="width:100%;padding-bottom:99.86403806934058%"></div>
+                            <img alt="profile"
+                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFxUlEQVQ4yy2Ue0yTVxjGP5nZ7Y8t2X9LdskyXdw1i5tLFtycmxEBi4DIpYLgFLkIojBQLgoOuwIdSBkXXaEUCgVaS/m4lULBAeUOlYKo4zaQgaII29ggrt/3PitlJ3lz3nNynl/e856chykszmc2Rkp6CPNwfs5hI9/tyGxZWJh3+3v1SdHYWMdIhVa+xNZVPRkcbLx9f9aiePj7jOftIcvWjbPLSwsOq6urdkZ/f699ZjLykrY0jhq2bOTz8/f3r6ysDPPcU8w/WEZWfi08/RPwjUCIuNjzaO80YuHhXdwd6xxb/WtFsKE57Mowi48n7HpGphAxMZJI+6LZUJ6kqcnDyso8eodGOJ+gBKvroXB+v+sR+tpJQAf3OfEeBzyteXkybn1tAQCH9fU10YZWdPVF5p+//2QYScFF+zWjrhxJ6u2rhazwAhmbZNb8TCn5Oe8n/8OuJDzkRL4eziRw+YoCPAR0wsuDjHUqzkbkbYHl5fviDcaDxd/sLOaDI+86eUftRVxqEEmlkbyuNAUXg/3ogtNnlO1/CJqEs1AnReGSnwBhh/aR085t9NnHr6GpKY2fHSnnOtpjYegK87DDXvJgHHZ57LI4eu7EuQx3q86YiNyMUEoWHqTR/DSs9bSDn54AzU5h3dyPx/p6qGNPk/POdyhTLIS5R8zpm4JtvU0btxX7HJN7NcftcloUgmL2ct9lCyhT60uZGb5UfEaItQETaGoS/06Ng5uZAjc+hvX+bqx1myCPDqFmdTGB+wury7PW9T8eYGqg14/xSt5TdDbfHX7pn1vPXHchSYMf/XjdF6XnAvDvrUFgagqYmQRNj4MfvwOyVQnLMBoyU9Gsk9HwZCNZZvTWvoEqXMuIVDHSmsiRsq5EsEM/8M1DmdQ6+hO6DVnoyhZhRlsKc54IrVfi8EAjx5JOgY7UOJikqagXXwarTsXNYQnpulO4hltXUDcgusVU1p9daum8jM4eMXV3iam1JwUWgwRz5UUYk1+FROiKGJfdmLiWjts/p0Pw0Zs4tnsHlJEnwWrjoOiOoEpTDM92n0dNR+wco6wJXKpti4C6LYTY9kiq64xCb4sIv1eUgL9jBn/PAqulD5y5F8utzZitlGOllcVERTFadcmoNyeQyhTNKzpjkG0ImWNK2cDRamModC2n+eqWSFIag6FqCoEpOwHrnbYXHhvBUxuMG74F68golhpugIZ6cFdegGp1ODS90SQ1BHOXGgMQqnEfZgqrvOU1hpNQ131rtQWp6o5RuTEAP8fvx6JWg7WOFqw2VOBRlQKDmSKMSJLxT30FOkSxkGsCSHozjC6wgdZLtkLiq49XMiKFk3uh1gtKrTen0LiTSutDtcZgij7tB/bcKTwqk6LFdw8Gwz3QGuGDvL0fou3MURSEu6FAHUjfa/0RpBRYLzQEIq0pUsgwzswzWSrBSIn+KK7f8LLKb7hDaYin8BQtCT94HaXuu2CKPY7HShmmJVfABrkh+uO3EeS7neJZNyRqhVwiK8RFzdEJc3Pa85tuU+rmIqvxQValCy8uceSL9RpUmziKOBZKzq+9gJIAAWYl52AOOQCVcB8JdrxKp5NSIKpP5GPL3biYCj+Elfl42WGFlcfsHzpL5pyiNcRA11bFsx2LVrbjCRS6SQo46E5Htr1MuY7bKfuL9yh055v0yY5t+OJECfeT/k9OYzLje3mMZINxvavSgZEWxjMzgN2+6m5OpjT1PUVL3yoa2h9yZfoFq7jIwvkLw/h977/B7377Fc7107es2xwjOKfoFmTq15DTuJZhr2wvw+RoTJsGm1uSviW3NdcOLau/51rWOHO75pcl3Gh7glztHMRlczh+NhdBh48i1NMbgjgTIgof3ZPo5jyZ/0dObf+mwcaJlJsb8h8YFavZ9LNP9VuTi8Y8ZdUTijz1r/3ZqjtTCdnG6YNR7MDh4znKE+dV3l/q8ay9VfWLDgUN03bZqbQQ5j8UfdEjA2vADgAAAABJRU5ErkJggg=="
+                                 style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                            <noscript>
+                                <picture><img alt="profile" sizes="(max-width: 300px) 100vw, 300px"
+                                              src="/static/7794a94aee87a282596366b6e83bd647/fbe2f/profile.png" srcset="/static/7794a94aee87a282596366b6e83bd647/e1fed/profile.png 75w,
+/static/7794a94aee87a282596366b6e83bd647/08283/profile.png 150w,
+/static/7794a94aee87a282596366b6e83bd647/fbe2f/profile.png 300w,
+/static/7794a94aee87a282596366b6e83bd647/59257/profile.png 450w,
+/static/7794a94aee87a282596366b6e83bd647/26d9e/profile.png 600w,
+/static/7794a94aee87a282596366b6e83bd647/224e0/profile.png 900w,
+/static/7794a94aee87a282596366b6e83bd647/31f38/profile.png 1471w"
+                                              style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                </picture>
+                            </noscript>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-foot">
+                    <div class="container"><img alt="hero" class="is-bottom"
+                                                src="/static/devices-c6098c56f800dfba23bef5d3c10e95b8.svg"/></div>
+                </div>
+            </section>
+            <section class="intro">
+                <div class="container"><h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Hi, I’m Akos. Nice
+                    to meet you.</h1>
+                    <h2 class="subtitle is-size-5-desktop">Since beginning my journey as a front-end developer nearly 4
+                        years ago, I&#x27;ve done remote work on streaming platforms, worked for agencies and
+                        collaborated with talented people to create digital products for both business and consumer use.
+                        I&#x27;m quietly confident, naturally curious, and perpetually improving my skills.</h2></div>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <div class="column"><img alt="icon-frontend" class="icon-frontend"
+                                             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjUwcHgiIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDUwIDQ4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBpZD0iV2Vic2l0ZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkhvbWUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02OTUuMDAwMDAwLCAtMTQ0MS4wMDAwMDApIiBmaWxsPSIjMDA5Qjc3Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTc0Mi42MTkwNDgsMTQ4NS4zOTE2IEM3NDIuNjE5MDQ4LDE0ODYuMDU3NiA3NDIuMDc5NzYyLDE0ODYuNiA3NDEuNDIzODEsMTQ4Ni42IEw2OTguNTc2MTksMTQ4Ni42IEM2OTcuOTE0Mjg2LDE0ODYuNiA2OTcuMzgwOTUyLDE0ODYuMDYyNCA2OTcuMzgwOTUyLDE0ODUuMzkxNiBMNjk3LjM4MDk1MiwxNDU5IEw2OTcuMzgwOTUyLDE0NTQuMiBMNjk3LjM4MDk1MiwxNDUzIEw3MDAuOTUyMzgxLDE0NTMgTDcwOC4wOTUyMzgsMTQ1MyBMNzExLjY2NjY2NywxNDUzIEw3MTUuMjM4MDk1LDE0NTMgTDczMC4xOTA0NzYsMTQ1MyBMNzQyLjYxOTA0OCwxNDUzIEw3NDIuNjE5MDQ4LDE0NTkgTDc0Mi42MTkwNDgsMTQ4NS4zOTE2IFogTTY5OC41NzYxOSwxNDQzLjQgTDcwMC45NTIzODEsMTQ0My40IEw3MDguMDk1MjM4LDE0NDMuNCBMNzExLjY2NjY2NywxNDQzLjQgTDcxNS4yMzgwOTUsMTQ0My40IEw3NDEuNDIzODEsMTQ0My40IEM3NDIuMDgyMTQzLDE0NDMuNCA3NDIuNjEzMDk1LDE0NDMuOTM0IDc0Mi42MTc4NTcsMTQ0NC42IEM3NDIuNjE3ODU3LDE0NDQuNjAyNCA3NDIuNjE5MDQ4LDE0NDQuNjA0OCA3NDIuNjE5MDQ4LDE0NDQuNjA4NCBMNzQyLjYxOTA0OCwxNDUwLjYgTDcxNS4yMzgwOTUsMTQ1MC42IEw3MTEuNjY2NjY3LDE0NTAuNiBMNzA4LjA5NTIzOCwxNDUwLjYgTDcwMC45NTIzODEsMTQ1MC42IEw2OTcuMzgwOTUyLDE0NTAuNiBMNjk3LjM4MDk1MiwxNDQ0LjYwODQgQzY5Ny4zODA5NTIsMTQ0NC42MDQ4IDY5Ny4zODIxNDMsMTQ0NC42MDI0IDY5Ny4zODIxNDMsMTQ0NC42IEM2OTcuMzg2OTA1LDE0NDMuOTM4OCA2OTcuOTIyNjE5LDE0NDMuNCA2OTguNTc2MTksMTQ0My40IEw2OTguNTc2MTksMTQ0My40IFogTTc0NC45OTg4MSwxNDQ0LjYgQzc0NC45OTg4MSwxNDQ0LjYwMjQgNzQ1LDE0NDQuNjA2IDc0NSwxNDQ0LjYwODQgTDc0NSwxNDU5IEw3NDUsMTQ4NS4zOTE2IEM3NDUsMTQ4Ny4zODQ4IDc0My4zOTI4NTcsMTQ4OSA3NDEuNDIzODEsMTQ4OSBMNjk4LjU3NjE5LDE0ODkgQzY5Ni42MDExOSwxNDg5IDY5NSwxNDg3LjM4ODQgNjk1LDE0ODUuMzkxNiBMNjk1LDE0NTkgTDY5NSwxNDU0LjIgTDY5NSwxNDQ0LjYwODQgQzY5NSwxNDQ0LjYwNiA2OTUuMDAxMTksMTQ0NC42MDI0IDY5NS4wMDExOSwxNDQ0LjYgQzY5NS4wMDQ3NjIsMTQ0My4wMzY0IDY5Ni4wMDIzODEsMTQ0MS43MTg4IDY5Ny4zODA5NTIsMTQ0MS4yMjIgQzY5Ny43NTU5NTIsMTQ0MS4wODY0IDY5OC4xNTQ3NjIsMTQ0MSA2OTguNTc2MTksMTQ0MSBMNzAwLjk1MjM4MSwxNDQxIEw3MDguMDk1MjM4LDE0NDEgTDcxMS42NjY2NjcsMTQ0MSBMNzE1LjIzODA5NSwxNDQxIEw3NDEuNDIzODEsMTQ0MSBDNzQzLjM5NjQyOSwxNDQxIDc0NC45OTQwNDgsMTQ0Mi42MDY4IDc0NC45OTg4MSwxNDQ0LjYgWiBNNzAwLjk1MjM4MSwxNDQ4LjE5OTc2IEM3MDEuNjEwNzE0LDE0NDguMTk5NzYgNzAyLjE0Mjg1NywxNDQ3LjY2MzM2IDcwMi4xNDI4NTcsMTQ0Ni45OTk3NiBDNzAyLjE0Mjg1NywxNDQ2LjMzNjE2IDcwMS42MTA3MTQsMTQ0NS43OTk3NiA3MDAuOTUyMzgxLDE0NDUuNzk5NzYgQzcwMC4yOTQwNDgsMTQ0NS43OTk3NiA2OTkuNzYxOTA1LDE0NDYuMzM2MTYgNjk5Ljc2MTkwNSwxNDQ2Ljk5OTc2IEM2OTkuNzYxOTA1LDE0NDcuNjYzMzYgNzAwLjI5NDA0OCwxNDQ4LjE5OTc2IDcwMC45NTIzODEsMTQ0OC4xOTk3NiBaIE03MDQuNTIzODEsMTQ0OC4xOTk3NiBDNzA1LjE4MjE0MywxNDQ4LjE5OTc2IDcwNS43MTQyODYsMTQ0Ny42NjMzNiA3MDUuNzE0Mjg2LDE0NDYuOTk5NzYgQzcwNS43MTQyODYsMTQ0Ni4zMzYxNiA3MDUuMTgyMTQzLDE0NDUuNzk5NzYgNzA0LjUyMzgxLDE0NDUuNzk5NzYgQzcwMy44NjU0NzYsMTQ0NS43OTk3NiA3MDMuMzMzMzMzLDE0NDYuMzM2MTYgNzAzLjMzMzMzMywxNDQ2Ljk5OTc2IEM3MDMuMzMzMzMzLDE0NDcuNjYzMzYgNzAzLjg2NTQ3NiwxNDQ4LjE5OTc2IDcwNC41MjM4MSwxNDQ4LjE5OTc2IFogTTcwOC4wOTUyMzgsMTQ0OC4xOTk3NiBDNzA4Ljc1MzU3MSwxNDQ4LjE5OTc2IDcwOS4yODU3MTQsMTQ0Ny42NjMzNiA3MDkuMjg1NzE0LDE0NDYuOTk5NzYgQzcwOS4yODU3MTQsMTQ0Ni4zMzYxNiA3MDguNzUzNTcxLDE0NDUuNzk5NzYgNzA4LjA5NTIzOCwxNDQ1Ljc5OTc2IEM3MDcuNDM2OTA1LDE0NDUuNzk5NzYgNzA2LjkwNDc2MiwxNDQ2LjMzNjE2IDcwNi45MDQ3NjIsMTQ0Ni45OTk3NiBDNzA2LjkwNDc2MiwxNDQ3LjY2MzM2IDcwNy40MzY5MDUsMTQ0OC4xOTk3NiA3MDguMDk1MjM4LDE0NDguMTk5NzYgWiBNNzMwLjM2NTQ3NiwxNDYxLjc1MTM2IEM3MzAuMzEzMDk1LDE0NjEuNjk5NzYgNzMwLjI0NzYxOSwxNDYxLjY3NDU2IDczMC4xOTA0NzYsMTQ2MS42MzM3NiBDNzI5LjcyNjE5LDE0NjEuMzEwOTYgNzI5LjA5NTIzOCwxNDYxLjMzMzc2IDcyOC42ODIxNDMsMTQ2MS43NTEzNiBDNzI4LjIxNjY2NywxNDYyLjIyMDU2IDcyOC4yMTY2NjcsMTQ2Mi45Nzg5NiA3MjguNjgyMTQzLDE0NjMuNDQ4MTYgTDczMC4xOTA0NzYsMTQ2NC45Njg1NiBMNzMzLjcyNjE5LDE0NjguNTMyNTYgTDczMC4xOTA0NzYsMTQ3Mi4wOTg5NiBMNzI4LjY4MjE0MywxNDczLjYxOTM2IEM3MjguMjE2NjY3LDE0NzQuMDg2MTYgNzI4LjIxNjY2NywxNDc0Ljg0Njk2IDcyOC42ODIxNDMsMTQ3NS4zMTYxNiBDNzI5LjA5NTIzOCwxNDc1LjczMTM2IDcyOS43MjYxOSwxNDc1Ljc1Nzc2IDczMC4xOTA0NzYsMTQ3NS40MzI1NiBDNzMwLjI0NzYxOSwxNDc1LjM5Mjk2IDczMC4zMTMwOTUsMTQ3NS4zNjg5NiA3MzAuMzY1NDc2LDE0NzUuMzE2MTYgTDczNi4yNTIzODEsMTQ2OS4zODA5NiBDNzM2LjcxNzg1NywxNDY4LjkxMjk2IDczNi43MTc4NTcsMTQ2OC4xNTMzNiA3MzYuMjUyMzgxLDE0NjcuNjg0MTYgTDczMC4zNjU0NzYsMTQ2MS43NTEzNiBaIE03MjMuNDgwNzE0LDE0NTcuODgxODQgQzcyMy4wOTczODEsMTQ1Ny43MzA2NCA3MjIuNjk2MTksMTQ1Ny44MTIyNCA3MjIuMzgwNzE0LDE0NTguMDMxODQgQzcyMi4xOTI2MTksMTQ1OC4xNjI2NCA3MjIuMDI3MTQzLDE0NTguMzMxODQgNzIxLjkzNzg1NywxNDU4LjU2MjI0IEw3MjEuNzY4ODEsMTQ1OS4wMDAyNCBMNzE3Ljc1MDk1MiwxNDY5LjM0NjY0IEw3MTQuMTI5NTI0LDE0NzguNjc3ODQgQzcxMy44ODkwNDgsMTQ3OS4yOTQ2NCA3MTQuMTkxNDI5LDE0NzkuOTkwNjQgNzE0LjgwNDUyNCwxNDgwLjIzMTg0IEM3MTUuNDE3NjE5LDE0ODAuNDczMDQgNzE2LjEwODA5NSwxNDgwLjE2ODI0IDcxNi4zNDczODEsMTQ3OS41NTI2NCBMNzE3Ljc1MDk1MiwxNDc1LjkzMzQ0IEw3MjIuMzgwNzE0LDE0NjQuMDA2NjQgTDcyNC4xNTQ1MjQsMTQ1OS40MzcwNCBDNzI0LjIxMDQ3NiwxNDU5LjI5MzA0IDcyNC4yMzA3MTQsMTQ1OS4xNDU0NCA3MjQuMjMwNzE0LDE0NTkuMDAwMjQgQzcyNC4yMzA3MTQsMTQ1OC41MjAyNCA3MjMuOTUwOTUyLDE0NTguMDY2NjQgNzIzLjQ4MDcxNCwxNDU3Ljg4MTg0IFogTTcxMS40NTA0NzYsMTQ2My40NDgxNiBDNzExLjkxNTk1MiwxNDYyLjk3ODk2IDcxMS45MTU5NTIsMTQ2Mi4yMjA1NiA3MTEuNDUwNDc2LDE0NjEuNzUxMzYgQzcxMC45ODUsMTQ2MS4yODIxNiA3MTAuMjMyNjE5LDE0NjEuMjgyMTYgNzA5Ljc2NzE0MywxNDYxLjc1MTM2IEw3MDguMDk1NzE0LDE0NjMuNDM2MTYgTDcwMy44ODAyMzgsMTQ2Ny42ODQxNiBDNzAzLjQxNDc2MiwxNDY4LjE1MzM2IDcwMy40MTQ3NjIsMTQ2OC45MTI5NiA3MDMuODgwMjM4LDE0NjkuMzgwOTYgTDcwOC4wOTU3MTQsMTQ3My42MzAxNiBMNzA5Ljc2NzE0MywxNDc1LjMxNjE2IEM3MTAuMjMyNjE5LDE0NzUuNzg0MTYgNzEwLjk4NSwxNDc1Ljc4NDE2IDcxMS40NTA0NzYsMTQ3NS4zMTYxNiBDNzExLjkxNTk1MiwxNDc0Ljg0Njk2IDcxMS45MTU5NTIsMTQ3NC4wODYxNiA3MTEuNDUwNDc2LDE0NzMuNjE5MzYgTDcwOC4wOTU3MTQsMTQ3MC4yMzY1NiBMNzA2LjQwNTIzOCwxNDY4LjUzMjU2IEw3MDguMDk1NzE0LDE0NjYuODI5NzYgTDcxMS40NTA0NzYsMTQ2My40NDgxNiBaIgogICAgICAgICAgICAgICAgICBpZD0iRlJPTlQtRU5EIi8+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"/>
+                        <h1 class="title is-size-4 is-spaced">Front-end Developer</h1>
+                        <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                        <p class="list-title text-primary">Languages I speak:</p>
+                        <p>HTML, CSS, Sass, Javascript, Typescript</p>
+                        <p class="list-title text-primary">Frameworks:</p>
+                        <ul>
+                            <li>VueJs</li>
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <p class="list-title text-primary">Dev Tools:</p>
+                        <ul>
+                            <li>WebStorm</li>
+                            <li>Git</li>
+                            <li>Webpack</li>
+                            <li>Gulp</li>
+                            <li>Terminal</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section portfolio">
+                <div class="container"><h1 class="title">My Recent Work</h1>
+                    <h2 class="subtitle is-size-5-desktop">Here are a few recent design projects.</h2>
+                    <div class="project-grid">
+                        <div class="columns">
+                            <div class="column">
+                                <figure class="img-figure">
+                                    <div class="portfolio-img hbo-go-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="hbo-go"
+                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABWElEQVQ4y2NgGAUDChgZGZmYmOBsIMAqDqJYWFh4eXk5OTl5eHgEBATExMQgGiQkJICCEKVAKSAXwubi4hIWFoba4+3tvX379szMzAsXLly6dOnixYudnZ1Tp059+fLlyZMn5eXlTUxMzp8/f+7cufLycnNzc6CaR48eNTQ0QDW/evXq+PHjd+/evXfv3tatW////w9kAzW8ePFixowZQJHc3NzQ0NBly5YBLbhx4wbQoKdPn5qamoI0AxVBNAPBli1bgJrv3Llz5MiRJ0+ezJo1a8eOHdnZ2Y2NjW/evAGKAA09ffr0gwcPLC0tGXx9fXft2lVQUAB0z/Xr12/evNnR0TFlyhSIiTIyMnZ2dpcvXz58+HBzc7OTkxNQwePHj7u7u0HOZmNjExQUBAYJkASGlpSUFCRUJSUl4QEmIiKipqYGCWEhISE5OTnCUcUIAzijahTQEQAAQqahtrR1q0oAAAAASUVORK5CYII="
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="hbo-go" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png"
+                                                          srcset="/static/1b19193576eb2c42daa22d3b38f6c356/e1fed/hbo.png 75w,
+/static/1b19193576eb2c42daa22d3b38f6c356/08283/hbo.png 150w,
+/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png 300w,
+/static/1b19193576eb2c42daa22d3b38f6c356/140ea/hbo.png 400w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">HBO GO streaming platform development</h1><a
+                                            class="button is-primary is-outlined is-rounded" href="https://hbogo.hu/"
+                                            rel="noopener noreferrer" target="_blank"><span>Visit Website</span><span
+                                            class="icon"><svg aria-hidden="true" role="img" viewBox="0 0 256 512"
+                                                              width="8px" xmlns="http://www.w3.org/2000/svg"><path
+                                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                            fill="currentColor"></path></svg></span></a></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="img-figure">
+                                    <div class="portfolio-img hbo-faq-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="hbo-faq"
+                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEG0lEQVQ4yyWUy28bVRTGZ5+4dux5eN5z79x5z3hsx47HsePYiS07TeKmdR4QgkqaQlQBEhSCQGoRqAWhVpVa2LIM/0Fgywo2iEUXCDZICIVCJEISStskBcJxuPo0mhnpN+c75353KNcJZFldXV3b2vp8a2trc/Oza9eub25u3rv7se14UbnabLXHG82oVB6rNSYnm7PT06PlUc/1LMulZAWlUtzU1MytW3du375z/d33Ll9ev3Hzw9def0NBxLT9UmW8WK66XpAvRvlCqVafyOaGFQUDSCkqhrs0L6dobijJgtJpMUlzLCfIGhFVnZeQqGBJM3gZC4qBiIMNl1ieTpxTWNU1REAIGQgbal+mggwZGQq2FGyrugNSsCMjGx414mEzQGZAAaNqGOkWfFLViKTqsmaAAJM0IiNLxjZcgdSskHjDhl9QzVDSfU6zKVXTDdM1naBvxs70AY1AHTdfwXZG7H/FIW7OCsv5sU5tdrm7cmV94/2X3/ng+StvUqqKdFW1iIFNz8+XAVaQBZYyUT2MGpoZYDuMJmb8UmP11bfv//jrD9t//PT74+29owf7R1RoW3WPuEjTTQ+K9w2fwkGxWqi1Fd0zvPzE7FJxfOrSKxu7j//97c/j7b3DX/YOdw4OqYzjVBxiYWy6Ge10TjBYjEjg+plCVSUecbKjzW797Hylde6rb7/bPzzZOXiy+9cxiOI4nmV52E+AVWyBJGRgTS8Xy2GpDhZMf3i01S2Od7rLL370yacHT57uPzree3T08PBvgNOCIJuWT0xP0y1Vh82wYGNhBLlyw/CGAZ7sPpOvtOZWXlpev/rN/e9PTk6e/nOyu/+Q4tM8TXPQLSZWf7ehOAxc1QVJc3MRwLqT61xYGZ/q1aZ69e5zb924+8WXX//8YOf8+XmKYblUkgYAExtgndgqZEPB0L+TjYDUnbDTWxkeazdmltoLl6L2Qm/t6sbNe2GYp2ioyzCSpARhUZY1hE0IDMQO/INxYgfI8GYWV+szi2OdXqv3QtRebM6vtS5c1C2fSrOswDLpNF8sj6uQUw1yaoiiwvNCmuMZhoED0Jp7FqYVNc9Vzy7V5y7mqh04CxwvUR6S0yyTStGjtaZl+5KkiaIIL+hUfyXOxFk2XW3PNaYX/Pyo4WaDYs0OipBLaJAyVJnj2FQy5WeGK9V64IdISrN0MjY4GBuMgViWi+qdsFAxIbySmovqlWZ3pNa23QwliWCPYWhWFCRZgblhIgsCSw+erlgsNpQYghHohqObrmG5lpNxMgXTzfYrSyLPMjTANM1IoixLgsKzPJNKxM8MDAwAnIgnBEEipmsH+XCkhnULeD83ksmVKIGHkAjgByFdUxGdTCUT8aF4PBGPDyUSQP4Pu14IfflhAf4ofrZkeTmIxn83Sg3m5B7hyAAAAABJRU5ErkJggg=="
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="hbo-faq" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/665ba12e2aa7b3652b09ac6d109d9b5d/fbe2f/hbo-help.png"
+                                                          srcset="/static/665ba12e2aa7b3652b09ac6d109d9b5d/e1fed/hbo-help.png 75w,
+/static/665ba12e2aa7b3652b09ac6d109d9b5d/08283/hbo-help.png 150w,
+/static/665ba12e2aa7b3652b09ac6d109d9b5d/fbe2f/hbo-help.png 300w,
+/static/665ba12e2aa7b3652b09ac6d109d9b5d/140ea/hbo-help.png 400w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">Help Center for HBO GO streaming app, classic faq with
+                                        modern technologies.</h1><a class="button is-primary is-outlined is-rounded"
+                                                                    href="https://helpcenter.hbogo.eu"
+                                                                    rel="noopener noreferrer" target="_blank"><span>Visit Website</span><span
+                                            class="icon"><svg aria-hidden="true" role="img" viewBox="0 0 256 512"
+                                                              width="8px" xmlns="http://www.w3.org/2000/svg"><path
+                                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                            fill="currentColor"></path></svg></span></a></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="img-figure">
+                                    <div class="portfolio-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="mateannasmink"
+                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABTklEQVQ4y71U21KDMBDN//+WlVsbbraKEKAzHdoRnmlI4MGzUGtU7Gg7OrMPu3v25GyWDezouVcb+xuy67zbL8iodmzpcxmFZD5HOHvEZ3I70nQudFmoXKjRQYgkoItkx+426+GlVskTSdkWmeuoJEES0PEjn5ndysDvD4ehaWQcUWbpkXmujGMkAaHA7J+ZsrosAavnpFs/kOaUty1oohdAKDDFmSmL66FUcj40tVwtp1HDoV74ChAKTHF2lpVRhPG01j0mrPcV/IlMM9tXuEhrLeCj7Cz+hby4UyIDX2Vp97iBwaFQZATNk4229ZZujop+t4PRuYC25fdtj+KqyEkqTWlaI2c6BSGSBBX53MAmcZ/3da2rCuOVYXAaWBggRBIQbdv8p3pbEuLjbpj2uCRwECJ5cUmM9VRC6CI/rScc8ZP1vPFh3Pwk/+dP8gpH4wN0V6DRNgAAAABJRU5ErkJggg=="
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="mateannasmink" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/e978b1016c55ebe71c3cb23d573300fd/fbe2f/mate_anna.png"
+                                                          srcset="/static/e978b1016c55ebe71c3cb23d573300fd/e1fed/mate_anna.png 75w,
+/static/e978b1016c55ebe71c3cb23d573300fd/08283/mate_anna.png 150w,
+/static/e978b1016c55ebe71c3cb23d573300fd/fbe2f/mate_anna.png 300w,
+/static/e978b1016c55ebe71c3cb23d573300fd/140ea/mate_anna.png 400w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">Portfolio page for Mate Anna make-up artist</h1><a
+                                            class="button is-primary is-outlined is-rounded"
+                                            href="https://mateannasmink.hu/" rel="noopener noreferrer"
+                                            target="_blank"><span>Visit Website</span><span class="icon"><svg
+                                            aria-hidden="true" role="img" viewBox="0 0 256 512" width="8px"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                            fill="currentColor"></path></svg></span></a></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="img-figure">
+                                    <div class="portfolio-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="mateannasmink"
+                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACVElEQVQ4y2NgGAVUAXPr/OE0CE+v8AXzZ9f4YVW/qicTTq/qzgCz5zeGMyxoCocoWNgYAKYXNPgzLGoMYFzUGMgI07ymM4xhbVcYmL+yPZRhdXcyw+qedIYtE1JBNOOqrhSG5R3xDGt7kxj+/5+PsHVeHaprljYHMW7sjYDz13VHMmzuj2VY35sIdFUmw5yGCNxeVpQSYALRrdlOHHNq/Xzm1vqZwOQqEqxZgT6QO7+sCFkL2MUrutItFrYkKM6sCRdc0BihtKQlgg/F4NvrcoVXd4Qu3DIhyhsm9vVwlcixeUmBIPb//+dZYeIXVlXLbZqYmf//0WJeiNx/pooEB2awJDsrM8hFMvE++tF1qfZrimMs+7NCTSdkh5qmF0VbdsR569dvnxQXURZnV1iV5NIT6GyYmxZi3ZAdbp3KzsZsBtRrDMTyCPczMuQDqVg1OeFGKz3Z6UGOGlv87NQ3BDpoLI3x1D/raa0+a31PXImTqcoKV3O1hWY6sotDXXTqTTQlUySEeaqBej2ZmRi1McLywMwEi91TY/Mfby0QubIyV+vkwnTdU4tyze5urNDZ2J9idHhuvtP//4dZTizMVF3dGZa6dWJU5J+TdQIYBmkqiDBBk4jouu5wJRA72MmQqSffmxkl/XUmisDYi5oCBFZ3hHHqKosxYk+sHaEMyGkPnnya3BnW9cQybOxLAPMXN0cwTigLR9E7o9KHgZODFSGwqS8SSkcA01ok2MatE+PBeMvEVCCdBKTTGTZPSAOrW9EWwrC8LRioNgquF6hvtMgZrAAAQJPPTKgtd2oAAAAASUVORK5CYII="
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="mateannasmink" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/de6d00f2e643d668dd0bd6cdd84cde04/fbe2f/bpmua.png"
+                                                          srcset="/static/de6d00f2e643d668dd0bd6cdd84cde04/e1fed/bpmua.png 75w,
+/static/de6d00f2e643d668dd0bd6cdd84cde04/08283/bpmua.png 150w,
+/static/de6d00f2e643d668dd0bd6cdd84cde04/fbe2f/bpmua.png 300w,
+/static/de6d00f2e643d668dd0bd6cdd84cde04/59257/bpmua.png 450w,
+/static/de6d00f2e643d668dd0bd6cdd84cde04/f8afa/bpmua.png 513w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">Portfolio page for a make-up artist located in
+                                        Budapest</h1><a class="button is-primary is-outlined is-rounded"
+                                                        href="https://mateannasmink.hu/" rel="noopener noreferrer"
+                                                        target="_blank"><span>Visit Website</span><span class="icon"><svg
+                                            aria-hidden="true" role="img" viewBox="0 0 256 512" width="8px"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                            fill="currentColor"></path></svg></span></a></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="img-figure no-button">
+                                    <div class="portfolio-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="insider quiz"
+                                             src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAUBAgME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGt5Mm51Xcx1RiXAf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMRExT/2gAIAQEAAQUCY4EdnY7LLAKvUxbpoMuUKwsYD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB4QAAICAAcAAAAAAAAAAAAAAAABAhEQEiExQVFx/9oACAEBAAY/Amysk4+4SdcCfRuVRoirP//EABsQAAMBAAMBAAAAAAAAAAAAAAABESExQWGB/9oACAEBAAE/IYxqSvI1WJSiPaXA+BIfJFA+6Ieka9OKSfRLMH//2gAMAwEAAgADAAAAEOAXf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABgRAAMBAQAAAAAAAAAAAAAAAAABERAx/9oACAECAQE/EIVi7n//xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhMWFBkf/aAAgBAQABPxBlAwgNYY0FToiWcfulzfpcSrCgx5pWpFB4R7MYMAIU+4WfzoXGpc1HRjPDdCDN/9k="
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="insider quiz" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/ae1a47e9e51d5a7a7721611f09127c22/eadbd/quiz.jpg"
+                                                          srcset="/static/ae1a47e9e51d5a7a7721611f09127c22/f01f2/quiz.jpg 75w,
+/static/ae1a47e9e51d5a7a7721611f09127c22/1986a/quiz.jpg 150w,
+/static/ae1a47e9e51d5a7a7721611f09127c22/eadbd/quiz.jpg 300w,
+/static/ae1a47e9e51d5a7a7721611f09127c22/7ef6a/quiz.jpg 400w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">Insider quiz web application for a big automotive
+                                        company</h1></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <figure class="img-figure no-button">
+                                    <div class="portfolio-img gatsby-image-wrapper"
+                                         style="position:relative;overflow:hidden">
+                                        <div style="width:100%;padding-bottom:100%"></div>
+                                        <img alt="insider quiz"
+                                             src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBQT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAB145tkvazRVvCFRAX/8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIAERIQEzH/2gAIAQEAAQUCnvHZoJmMzXQKmaM//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAESEP/aAAgBAwEBPwGGQLP/xAAZEQACAwEAAAAAAAAAAAAAAAAAARASEzH/2gAIAQIBAT8BujVD7H//xAAbEAABBAMAAAAAAAAAAAAAAAAAARARITJBkf/aAAgBAQAGPwJ7MlKTpO3/AP/EAB0QAAMAAgIDAAAAAAAAAAAAAAABETFRIXFBYfD/2gAIAQEAAT8hE0GoyoX2qJDr+nRjnz5sxWegzz5FtP/aAAwDAQACAAMAAAAQ1Md+/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIfD/2gAIAQMBAT8QC+Q+FZ//xAAZEQACAwEAAAAAAAAAAAAAAAAAAREhcZH/2gAIAQIBAT8QLDotBpSf/8QAIBAAAgICAAcAAAAAAAAAAAAAAAERITFBUWFxgZGhsf/aAAgBAQABPxCCgVMmVwGw70R/WTRAlhDvlhPyNDX1kp9C7Us1I1+ohZu9n//Z"
+                                             style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                        <noscript>
+                                            <picture><img alt="insider quiz" sizes="(max-width: 300px) 100vw, 300px"
+                                                          src="/static/b228aa4d25e52f06ef35fd8628f042a0/eadbd/cms.jpg"
+                                                          srcset="/static/b228aa4d25e52f06ef35fd8628f042a0/f01f2/cms.jpg 75w,
+/static/b228aa4d25e52f06ef35fd8628f042a0/1986a/cms.jpg 150w,
+/static/b228aa4d25e52f06ef35fd8628f042a0/eadbd/cms.jpg 300w,
+/static/b228aa4d25e52f06ef35fd8628f042a0/7ef6a/cms.jpg 400w"
+                                                          style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                            </picture>
+                                        </noscript>
+                                    </div>
+                                    <figcaption><h1 class="title">CMS for US based e-learning platform</h1></figcaption>
+                                    <div class="overlay"></div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section clients is-medium is-white has-text-centered">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column"><h1 class="title">I&#x27;m proud to have collaborated with some awesome
+                            companies:</h1></div>
+                    </div>
+                    <div class="client-grid">
+                        <div class="column">
+                            <div class="client-img attrecto-img gatsby-image-wrapper"
+                                 style="position:relative;overflow:hidden">
+                                <div style="width:100%;padding-bottom:41.25%"></div>
+                                <img alt="attrecto"
+                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABkUlEQVQoz2NgAIGOWzHS3bc/x0198j9m+vP/yX0Xtv6PVOBnIAewdNw0Ypjy9L/+jHuvs+bdXOE38/nm1t7D/7/HaC8FyXfW1nA319VyNjQ0SNbX1wsDaWYgZoPS7EAxPiAWALJBahgZGJe96mZY++G/z9aHq7K3Xv8Rvvvl6XWt9Zf/h8t+2JofrVHY0qXbVF9nB1TsA8S+QOwMNMAFSLsDaT0grQXEoUBsAMSaDEwbPkxgWP/pv9fGx3Oz9r76H7b91e0nfQ4F/7Ok7+7MijAuaO02bKyvCwIq1gdiSyCWhxrgBDTQDEjrArEXEJsDsR4D47r39ow7f/3n2fjieuPKrZsOTK4M/d8ode5vs+JekJe7Gir4WhuqOYCa2YCYFSQG1MgKxdxADJIDifEBMRM4HG12zS5NOpvzv2eP3bsvHbI3/jcq3P3VrCDDQB74DyZnnpHUyD3rkb5svU3Yf0YGZpDY9yZlRobm/wzAMAS5AI6hLsLgg2gGu90zGBhW/GfCsKZKhhFMNykAsTzRzgMAdYXTe0pT1KEAAAAASUVORK5CYII="
+                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                <noscript>
+                                    <picture><img alt="attrecto" sizes="(max-width: 300px) 100vw, 300px"
+                                                  src="/static/b07aae7d765cc81c6f6d7557375b2367/fbe2f/attrecto.png"
+                                                  srcset="/static/b07aae7d765cc81c6f6d7557375b2367/e1fed/attrecto.png 75w,
+/static/b07aae7d765cc81c6f6d7557375b2367/08283/attrecto.png 150w,
+/static/b07aae7d765cc81c6f6d7557375b2367/fbe2f/attrecto.png 300w,
+/static/b07aae7d765cc81c6f6d7557375b2367/f70c7/attrecto.png 320w"
+                                                  style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="client-img hbo-img gatsby-image-wrapper"
+                                 style="position:relative;overflow:hidden">
+                                <div style="width:100%;padding-bottom:71.625%"></div>
+                                <img alt="hbo"
+                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQ4y1XUSyhEYRQH8I8MKSzEwmO8Ga+FqPF+FrPw2thIXtmIhUdJmWRhQcjCo0TJSh6ZUkpWNl7FUpEFSjYkxEJi+J/xnzpu/eae+917zne+b+6MMcb8UC5UMz6FbcbP8Mj4CppVzj3vS3wHyWC+OFAAtYwPYYNxK1hU4jfPqzALk7DPsWUp6ObFNdwwPoEt1e0uC91y7BwWGH/CFLzBky7oVrNLQRfjD7WKY57PYE0tfQYe4F0vuQ5aGB/BJuNmLvlVFfhiEVn2HKxzfMeorrKhSnXiXfKBKv7MfftR23Ghru26YB7UqIIu9aC3qx7zdwzCi7p3CZW8Z4qhFIIhFCogC9KgDPKhEOLM/yMMytmIhWO+8hENkSxgY2I8JEEUxPA6hWycUOIIiIV05kstT4IkB0IQzyEQwIelEz+ycRLDZ5P5rD8ksDGzyGUn8iWWo42djkEfExqgH5zszs73r52/snHIkeQVtis6WbCbSUswwq6cau96oQimoR5KOLk05XkNUrkfA9yfLrAyUbrO4Jj8PJvAwbiRk8gXN8S9NhMwyhsOvjJW7pEsK5zfvA/swTCfzfT+GbDQPHT8AqNYjAnAUz5OAAAAAElFTkSuQmCC"
+                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                <noscript>
+                                    <picture><img alt="hbo" sizes="(max-width: 300px) 100vw, 300px"
+                                                  src="/static/7d32f93aa5ae0739dde4d15da011b554/fbe2f/hbo.png" srcset="/static/7d32f93aa5ae0739dde4d15da011b554/e1fed/hbo.png 75w,
+/static/7d32f93aa5ae0739dde4d15da011b554/08283/hbo.png 150w,
+/static/7d32f93aa5ae0739dde4d15da011b554/fbe2f/hbo.png 300w,
+/static/7d32f93aa5ae0739dde4d15da011b554/59257/hbo.png 450w,
+/static/7d32f93aa5ae0739dde4d15da011b554/26d9e/hbo.png 600w,
+/static/7d32f93aa5ae0739dde4d15da011b554/a3fa0/hbo.png 800w"
+                                                  style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="client-img supercharge-img gatsby-image-wrapper"
+                                 style="position:relative;overflow:hidden">
+                                <div style="width:100%;padding-bottom:100%"></div>
+                                <img alt="supercharge"
+                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAABG0lEQVQ4y+3Tv0rDUBTH8SRV+2cS/wy6RVQCIjiIDipKRaogLa2Kf9EiUju0YsF0cCj6WL5En8A30NVZvxd+kSAdcotDEQ98SLlJT84998Rx/kJ4cMWTwYpdNHGJNeQxo3uubbIGjjGCK7zjyTZR1KMNVTWEF3yggBVV6STtZ0rXGqawji72tG62W+8n4TWW9fsEn6hgDLc2CaP+zGtrbbzhUevN2IusejmMZ7ziFD7uVa1VsujBafXLbLGEM8wlTTKLpR5Jf4afNOEmLhBoNIo4x6Ec6bRbqnYbVWxpTo1yPOEiHjS8HV1D3GAHB9jXl3KngTcnvar/hSrkOyaQRUanG2h9VGOUxqSG3Hw147q/oBeZ53LOf/xKfAHmYyD4I49iGAAAAABJRU5ErkJggg=="
+                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/>
+                                <noscript>
+                                    <picture><img alt="supercharge" sizes="(max-width: 256px) 100vw, 256px"
+                                                  src="/static/3a65682fd7fe21abe18ad679aa0e6a14/1f75a/supercharge.png"
+                                                  srcset="/static/3a65682fd7fe21abe18ad679aa0e6a14/e1fed/supercharge.png 75w,
+/static/3a65682fd7fe21abe18ad679aa0e6a14/08283/supercharge.png 150w,
+/static/3a65682fd7fe21abe18ad679aa0e6a14/1f75a/supercharge.png 256w"
+                                                  style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/>
+                                    </picture>
+                                </noscript>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="accent" id="footer">
+            <div class="container is-narrow">
+                <div class="logo-container">
+                    <svg class="logo desktop" height="65px" version="1.1" viewBox="0 0 319 65" width="319px"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <g fill="transparent" fill-rule="evenodd" id="logo" stroke="none" stroke-width="1">
+                            <g fill="#fff" id="content" transform="translate(28.000000, 18.000000)">
+                                <path d="M66.936,19.736 L59.832,19.736 L58.512,23 L53.664,23 L61.08,6.2 L65.76,6.2 L73.2,23 L68.256,23 L66.936,19.736 Z M65.544,16.232 L63.384,10.856 L61.224,16.232 L65.544,16.232 Z M81.024,16.904 L79.248,18.8 L79.248,23 L74.544,23 L74.544,6.2 L79.248,6.2 L79.248,13.184 L85.752,6.2 L90.984,6.2 L84.12,13.64 L91.344,23 L85.824,23 L81.024,16.904 Z M101.064,23.336 C99.2879911,23.336 97.6920071,22.9600038 96.276,22.208 C94.8599929,21.4559962 93.748004,20.4160066 92.94,19.088 C92.131996,17.7599934 91.728,16.2640083 91.728,14.6 C91.728,12.9359917 92.131996,11.4400066 92.94,10.112 C93.748004,8.78399336 94.8599929,7.74400376 96.276,6.992 C97.6920071,6.23999624 99.2879911,5.864 101.064,5.864 C102.840009,5.864 104.435993,6.23999624 105.852,6.992 C107.268007,7.74400376 108.379996,8.78399336 109.188,10.112 C109.996004,11.4400066 110.4,12.9359917 110.4,14.6 C110.4,16.2640083 109.996004,17.7599934 109.188,19.088 C108.379996,20.4160066 107.268007,21.4559962 105.852,22.208 C104.435993,22.9600038 102.840009,23.336 101.064,23.336 Z M101.064,19.4 C101.912004,19.4 102.679997,19.200002 103.368,18.8 C104.056003,18.399998 104.599998,17.8360036 105,17.108 C105.400002,16.3799964 105.6,15.5440047 105.6,14.6 C105.6,13.6559953 105.400002,12.8200036 105,12.092 C104.599998,11.3639964 104.056003,10.800002 103.368,10.4 C102.679997,9.999998 101.912004,9.8 101.064,9.8 C100.215996,9.8 99.4480034,9.999998 98.76,10.4 C98.0719966,10.800002 97.528002,11.3639964 97.128,12.092 C96.727998,12.8200036 96.528,13.6559953 96.528,14.6 C96.528,15.5440047 96.727998,16.3799964 97.128,17.108 C97.528002,17.8360036 98.0719966,18.399998 98.76,18.8 C99.4480034,19.200002 100.215996,19.4 101.064,19.4 Z M118.8,23.336 C117.439993,23.336 116.120006,23.1680017 114.84,22.832 C113.559994,22.4959983 112.520004,22.0480028 111.72,21.488 L113.28,17.984 C114.032004,18.4800025 114.903995,18.8799985 115.896,19.184 C116.888005,19.4880015 117.863995,19.64 118.824,19.64 C120.648009,19.64 121.56,19.1840046 121.56,18.272 C121.56,17.7919976 121.300003,17.4360012 120.78,17.204 C120.259997,16.9719988 119.424006,16.7280013 118.272,16.472 C117.007994,16.1999986 115.952004,15.9080016 115.104,15.596 C114.255996,15.2839984 113.528003,14.7840034 112.92,14.096 C112.311997,13.4079966 112.008,12.4800058 112.008,11.312 C112.008,10.2879949 112.287997,9.36400412 112.848,8.54 C113.408003,7.71599588 114.243994,7.0640024 115.356,6.584 C116.468006,6.1039976 117.831992,5.864 119.448,5.864 C120.552006,5.864 121.639995,5.98799876 122.712,6.236 C123.784005,6.48400124 124.727996,6.8479976 125.544,7.328 L124.08,10.856 C122.479992,9.99199568 120.928008,9.56 119.424,9.56 C118.479995,9.56 117.792002,9.6999986 117.36,9.98 C116.927998,10.2600014 116.712,10.6239978 116.712,11.072 C116.712,11.5200022 116.967997,11.8559989 117.48,12.08 C117.992003,12.3040011 118.815994,12.5359988 119.952,12.776 C121.232006,13.0480014 122.291996,13.3399984 123.132,13.652 C123.972004,13.9640016 124.699997,14.4599966 125.316,15.14 C125.932003,15.8200034 126.24,16.7439942 126.24,17.912 C126.24,18.920005 125.960003,19.8319959 125.4,20.648 C124.839997,21.4640041 124.000006,22.1159976 122.88,22.604 C121.759994,23.0920024 120.400008,23.336 118.8,23.336 Z M151.392,6.2 L151.392,23 L146.64,23 L146.64,16.448 L140.16,16.448 L140.16,23 L135.408,23 L135.408,6.2 L140.16,6.2 L140.16,12.512 L146.64,12.512 L146.64,6.2 L151.392,6.2 Z M163.224,23.336 C161.447991,23.336 159.852007,22.9600038 158.436,22.208 C157.019993,21.4559962 155.908004,20.4160066 155.1,19.088 C154.291996,17.7599934 153.888,16.2640083 153.888,14.6 C153.888,12.9359917 154.291996,11.4400066 155.1,10.112 C155.908004,8.78399336 157.019993,7.74400376 158.436,6.992 C159.852007,6.23999624 161.447991,5.864 163.224,5.864 C165.000009,5.864 166.595993,6.23999624 168.012,6.992 C169.428007,7.74400376 170.539996,8.78399336 171.348,10.112 C172.156004,11.4400066 172.56,12.9359917 172.56,14.6 C172.56,16.2640083 172.156004,17.7599934 171.348,19.088 C170.539996,20.4160066 169.428007,21.4559962 168.012,22.208 C166.595993,22.9600038 165.000009,23.336 163.224,23.336 Z M163.224,19.4 C164.072004,19.4 164.839997,19.200002 165.528,18.8 C166.216003,18.399998 166.759998,17.8360036 167.16,17.108 C167.560002,16.3799964 167.76,15.5440047 167.76,14.6 C167.76,13.6559953 167.560002,12.8200036 167.16,12.092 C166.759998,11.3639964 166.216003,10.800002 165.528,10.4 C164.839997,9.999998 164.072004,9.8 163.224,9.8 C162.375996,9.8 161.608003,9.999998 160.92,10.4 C160.231997,10.800002 159.688002,11.3639964 159.288,12.092 C158.887998,12.8200036 158.688,13.6559953 158.688,14.6 C158.688,15.5440047 158.887998,16.3799964 159.288,17.108 C159.688002,17.8360036 160.231997,18.399998 160.92,18.8 C161.608003,19.200002 162.375996,19.4 163.224,19.4 Z M182.4,18.536 L179.808,18.536 L179.808,23 L175.056,23 L175.056,6.2 L182.736,6.2 C184.256008,6.2 185.575994,6.45199748 186.696,6.956 C187.816006,7.46000252 188.679997,8.17999532 189.288,9.116 C189.896003,10.0520047 190.2,11.1519937 190.2,12.416 C190.2,13.6320061 189.916003,14.6919955 189.348,15.596 C188.779997,16.5000045 187.968005,17.2079974 186.912,17.72 L190.536,23 L185.448,23 L182.4,18.536 Z M185.4,12.416 C185.4,11.6319961 185.152002,11.0240022 184.656,10.592 C184.159998,10.1599978 183.424005,9.944 182.448,9.944 L179.808,9.944 L179.808,14.864 L182.448,14.864 C183.424005,14.864 184.159998,14.6520021 184.656,14.228 C185.152002,13.8039979 185.4,13.2000039 185.4,12.416 Z M209.856,6.2 L202.656,23 L197.976,23 L190.8,6.2 L195.936,6.2 L200.496,17.144 L205.152,6.2 L209.856,6.2 Z M222.456,19.736 L215.352,19.736 L214.032,23 L209.184,23 L216.6,6.2 L221.28,6.2 L228.72,23 L223.776,23 L222.456,19.736 Z M221.064,16.232 L218.904,10.856 L216.744,16.232 L221.064,16.232 Z M233.64,9.968 L228.48,9.968 L228.48,6.2 L243.528,6.2 L243.528,9.968 L238.392,9.968 L238.392,23 L233.64,23 L233.64,9.968 Z M261.288,6.2 L261.288,23 L256.536,23 L256.536,16.448 L250.056,16.448 L250.056,23 L245.304,23 L245.304,6.2 L250.056,6.2 L250.056,12.512 L256.536,12.512 L256.536,6.2 L261.288,6.2 Z"
+                                      id="Akos-Horvath"></path>
+                                <g fill-rule="nonzero" id="ICON">
+                                    <path d="M22.4189005,2.12483395 C22.7014105,0.994793785 23.8465087,0.307734866 24.9765489,0.590244909 C26.1065891,0.872754951 26.793648,2.01785315 26.5111379,3.14789332 L20.5006642,27.1897884 C20.2181541,28.3198285 19.0730559,29.0068875 17.9430158,28.7243774 C16.8129756,28.4418674 16.1259167,27.2967692 16.4084267,26.166729 L22.4189005,2.12483395 Z"
+                                          id="Line"></path>
+                                    <path d="M29.1967138,6.70164122 C28.4075464,5.84489297 28.4623315,4.51061473 29.3190798,3.72144735 C30.175828,2.93227997 31.5101063,2.98706508 32.2992736,3.84381333 L41.0415336,13.3347224 C41.7904403,14.1477623 41.784556,15.4010816 41.0280479,16.2070535 L32.1196125,25.6979626 C31.3224352,26.547263 29.9877013,26.589517 29.138401,25.7923398 C28.2891007,24.9951625 28.2468466,23.6604286 29.0440239,22.8111283 L36.6103187,14.750115 L29.1967138,6.70164122 Z"
+                                          id="Line-Copy"></path>
+                                    <path d="M0.723986516,6.70164122 C-0.065180864,5.84489297 -0.0103957481,4.51061473 0.846352497,3.72144735 C1.70310074,2.93227997 3.03737899,2.98706508 3.82654637,3.84381333 L12.5688063,13.3347224 C13.3177131,14.1477623 13.3118287,15.4010816 12.5553207,16.2070535 L3.64688521,25.6979626 C2.84970791,26.547263 1.51497407,26.589517 0.665673727,25.7923398 C-0.183626612,24.9951625 -0.225880686,23.6604286 0.571296612,22.8111283 L8.13759142,14.750115 L0.723986516,6.70164122 Z"
+                                          id="Line-Copy-2"
+                                          transform="translate(6.563305, 14.763634) scale(-1, 1) translate(-6.563305, -14.763634) "></path>
+                                </g>
+                            </g>
+                            <rect fill-rule="nonzero" height="45" id="rectangle" stroke="#fff" stroke-linejoin="round"
+                                  stroke-width="3" width="299" x="10" y="10"></rect>
+                        </g>
+                    </svg>
+                    <svg class="logo mobile" height="65px" preserveAspectRatio="xMidYMid meet" version="1.0"
+                         viewBox="0 0 1600.000000 1600.000000" width="65px" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#fff" stroke="none"
+                           transform="translate(0.000000,1600.000000) scale(0.100000,-0.100000)">
+                            <path d="M9189 13563 c-35 -7 -88 -25 -118 -40 -71 -35 -160 -119 -193 -180
 -19 -36 -512 -1488 -533 -1573 -7 -26 -216 -653 -230 -690 -14 -35 -322 -962
 -330 -990 -2 -8 -69 -211 -150 -450 -80 -239 -147 -442 -149 -450 -4 -17 -367
 -1105 -1363 -4095 -665 -1997 -677 -2031 -676 -2107 0 -102 40 -190 114 -248
@@ -152,4 +1527,53 @@
 66 -25 30 -49 60 -55 66 -5 6 -26 30 -45 54 -19 24 -40 48 -45 54 -6 6 -42 49
 -80 96 -38 47 -82 99 -96 115 -15 17 -107 127 -205 245 -98 118 -181 217 -184
 220 -3 3 -25 30 -50 60 -25 30 -47 57 -50 60 -3 3 -25 30 -50 60 -63 78 -97
-106 -165 140 -89 45 -175 56 -255 35z"></path></g></svg></div><div class="columns is-centered"><div class="column"><h1 class="title">Living, learning, &amp; leveling up one day at a time.</h1></div></div><div class="social-icons"><p class="field"><a class="button" href="https://www.linkedin.com/in/horvathakosistvan" target="_blank" rel="noopener noreferrer"><span class="icon is-small"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg></span></a><a class="button" href="mailto:%68orvath%2Eak%6Fs%2E7@gmai%6C%2E%63%6Fm" target="_blank" rel="noopener noreferrer"><span class="icon is-small"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg></span></a></p></div><div class="copyright">© <!-- -->2019<br/>Handcrafted by me</div><div class="made-with-gatsby"><div>Made with Gatsby</div><a href="https://www.gatsbyjs.org/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDYgMjgiPgogICAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYyLjkgMTJoMi44djEwaC0yLjh2LTEuM2MtMSAxLjUtMi4zIDEuNi0zLjEgMS42LTMuMSAwLTUuMS0yLjQtNS4xLTUuMyAwLTMgMi01LjMgNC45LTUuMy44IDAgMi4zLjEgMy4yIDEuNlYxMnptLTUuMiA1YzAgMS42IDEuMSAyLjggMi44IDIuOCAxLjYgMCAyLjgtMS4yIDIuOC0yLjggMC0xLjYtMS4xLTIuOC0yLjgtMi44LTEuNiAwLTIuOCAxLjItMi44IDIuOHptMTMuNS0yLjZWMjJoLTIuOHYtNy42aC0xLjFWMTJoMS4xVjguNmgyLjhWMTJoMS45djIuNGgtMS45em04LjUgMGMtLjctLjYtMS4zLS43LTEuNi0uNy0uNyAwLTEuMS4zLTEuMS44IDAgLjMuMS42LjkuOWwuNy4yYy44LjMgMiAuNiAyLjUgMS40LjMuNC41IDEgLjUgMS43IDAgLjktLjMgMS44LTEuMSAyLjVzLTEuOCAxLjEtMyAxLjFjLTIuMSAwLTMuMi0xLTMuOS0xLjdsMS41LTEuN2MuNi42IDEuNCAxLjIgMi4yIDEuMi44IDAgMS40LS40IDEuNC0xLjEgMC0uNi0uNS0uOS0uOS0xbC0uNi0uMmMtLjctLjMtMS41LS42LTIuMS0xLjItLjUtLjUtLjgtMS4xLS44LTEuOSAwLTEgLjUtMS44IDEtMi4zLjgtLjYgMS44LS43IDIuNi0uNy43IDAgMS45LjEgMy4yIDEuMWwtMS40IDEuNnptNi4xLTEuMWMxLTEuNCAyLjQtMS42IDMuMi0xLjYgMi45IDAgNC45IDIuMyA0LjkgNS4zcy0yIDUuMy01IDUuM2MtLjYgMC0yLjEtLjEtMy4yLTEuNlYyMkg4M1Y1LjJoMi44djguMXptLS4zIDMuN2MwIDEuNiAxLjEgMi44IDIuOCAyLjggMS42IDAgMi44LTEuMiAyLjgtMi44IDAtMS42LTEuMS0yLjgtMi44LTIuOC0xLjcgMC0yLjggMS4yLTIuOCAyLjh6bTEzIDMuNUw5My43IDEySDk3bDMuMSA1LjcgMi44LTUuN2gzLjJsLTggMTUuM2gtMy4ybDMuNi02Ljh6TTU0IDEzLjdoLTd2Mi44aDMuN2MtLjYgMS45LTIgMy4yLTQuNiAzLjItMi45IDAtNS0yLjQtNS01LjNTNDMuMSA5IDQ2IDljMS42IDAgMy4yLjggNC4yIDIuMWwyLjMtMS41QzUxIDcuNSA0OC42IDYuMyA0NiA2LjNjLTQuNCAwLTggMy42LTggOC4xczMuNCA4LjEgOCA4LjEgOC0zLjYgOC04LjFjLjEtLjMgMC0uNSAwLS43eiIvPgogICAgPHBhdGggZD0iTTI1IDE0aC03djJoNC44Yy0uNyAzLTIuOSA1LjUtNS44IDYuNUw1LjUgMTFjMS4yLTMuNSA0LjYtNiA4LjUtNiAzIDAgNS43IDEuNSA3LjQgMy44bDEuNS0xLjNDMjAuOSA0LjggMTcuNyAzIDE0IDMgOC44IDMgNC40IDYuNyAzLjMgMTEuNmwxMy4yIDEzLjJDMjEuMyAyMy42IDI1IDE5LjIgMjUgMTR6bS0yMiAuMWMwIDIuOCAxLjEgNS41IDMuMiA3LjYgMi4xIDIuMSA0LjkgMy4yIDcuNiAzLjJMMyAxNC4xeiIKICAgICAgICAgIGZpbGw9InRyYW5zcGFyZW50Ii8+CiAgICA8cGF0aCBkPSJNMTQgMEM2LjMgMCAwIDYuMyAwIDE0czYuMyAxNCAxNCAxNCAxNC02LjMgMTQtMTRTMjEuNyAwIDE0IDB6TTYuMiAyMS44QzQuMSAxOS43IDMgMTYuOSAzIDE0LjJMMTMuOSAyNWMtMi44LS4xLTUuNi0xLjEtNy43LTMuMnptMTAuMiAyLjlMMy4zIDExLjZDNC40IDYuNyA4LjggMyAxNCAzYzMuNyAwIDYuOSAxLjggOC45IDQuNWwtMS41IDEuM0MxOS43IDYuNSAxNyA1IDE0IDVjLTMuOSAwLTcuMiAyLjUtOC41IDZMMTcgMjIuNWMyLjktMSA1LjEtMy41IDUuOC02LjVIMTh2LTJoN2MwIDUuMi0zLjcgOS42LTguNiAxMC43eiIKICAgICAgICAgIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==" alt="Made with Gatsby" width="163" height="31"/></a></div></div></footer></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"};window.dataPath="173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-0f0c3226d2f3e55d3843.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-caa6f560410bfe9ffa16.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4457973f2a558309a892.js"],"component---src-pages-index-js":["/component---src-pages-index-js-2975f70094ffafae644c.js"],"pages-manifest":["/pages-manifest-1a6ae501c0e07c2148a2.js"]};/*]]>*/</script><script src="/webpack-runtime-a5d90a6128e1ce427759.js" async=""></script><script src="/styles-f207158886eb04827552.js" async=""></script><script src="/1-45253c72d5a62648debf.js" async=""></script><script src="/8-1db73955268ece794757.js" async=""></script><script src="/app-0f0c3226d2f3e55d3843.js" async=""></script><script src="/component---src-pages-index-js-2975f70094ffafae644c.js" async=""></script></body></html>
+106 -165 140 -89 45 -175 56 -255 35z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column"><h1 class="title">Living, learning, &amp; leveling up one day at a time.</h1>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <p class="field"><a class="button" href="https://www.linkedin.com/in/horvathakosistvan"
+                                        rel="noopener noreferrer" target="_blank"><span class="icon is-small"><svg
+                            aria-hidden="true" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path
+                            d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"
+                            fill="currentColor"></path></svg></span></a><a class="button"
+                                                                           href="mailto:%68orvath%2Eak%6Fs%2E7@gmai%6C%2E%63%6Fm"
+                                                                           rel="noopener noreferrer"
+                                                                           target="_blank"><span class="icon is-small"><svg
+                            aria-hidden="true" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path
+                            d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                            fill="currentColor"></path></svg></span></a></p>
+                </div>
+                <div class="copyright">© <!-- --> 2019<br/>Handcrafted by me</div>
+                <div class="made-with-gatsby">
+                    <div>Made with Gatsby</div>
+                    <a href="https://www.gatsbyjs.org/"><img alt="Made with Gatsby" height="31"
+                                                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDYgMjgiPgogICAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYyLjkgMTJoMi44djEwaC0yLjh2LTEuM2MtMSAxLjUtMi4zIDEuNi0zLjEgMS42LTMuMSAwLTUuMS0yLjQtNS4xLTUuMyAwLTMgMi01LjMgNC45LTUuMy44IDAgMi4zLjEgMy4yIDEuNlYxMnptLTUuMiA1YzAgMS42IDEuMSAyLjggMi44IDIuOCAxLjYgMCAyLjgtMS4yIDIuOC0yLjggMC0xLjYtMS4xLTIuOC0yLjgtMi44LTEuNiAwLTIuOCAxLjItMi44IDIuOHptMTMuNS0yLjZWMjJoLTIuOHYtNy42aC0xLjFWMTJoMS4xVjguNmgyLjhWMTJoMS45djIuNGgtMS45em04LjUgMGMtLjctLjYtMS4zLS43LTEuNi0uNy0uNyAwLTEuMS4zLTEuMS44IDAgLjMuMS42LjkuOWwuNy4yYy44LjMgMiAuNiAyLjUgMS40LjMuNC41IDEgLjUgMS43IDAgLjktLjMgMS44LTEuMSAyLjVzLTEuOCAxLjEtMyAxLjFjLTIuMSAwLTMuMi0xLTMuOS0xLjdsMS41LTEuN2MuNi42IDEuNCAxLjIgMi4yIDEuMi44IDAgMS40LS40IDEuNC0xLjEgMC0uNi0uNS0uOS0uOS0xbC0uNi0uMmMtLjctLjMtMS41LS42LTIuMS0xLjItLjUtLjUtLjgtMS4xLS44LTEuOSAwLTEgLjUtMS44IDEtMi4zLjgtLjYgMS44LS43IDIuNi0uNy43IDAgMS45LjEgMy4yIDEuMWwtMS40IDEuNnptNi4xLTEuMWMxLTEuNCAyLjQtMS42IDMuMi0xLjYgMi45IDAgNC45IDIuMyA0LjkgNS4zcy0yIDUuMy01IDUuM2MtLjYgMC0yLjEtLjEtMy4yLTEuNlYyMkg4M1Y1LjJoMi44djguMXptLS4zIDMuN2MwIDEuNiAxLjEgMi44IDIuOCAyLjggMS42IDAgMi44LTEuMiAyLjgtMi44IDAtMS42LTEuMS0yLjgtMi44LTIuOC0xLjcgMC0yLjggMS4yLTIuOCAyLjh6bTEzIDMuNUw5My43IDEySDk3bDMuMSA1LjcgMi44LTUuN2gzLjJsLTggMTUuM2gtMy4ybDMuNi02Ljh6TTU0IDEzLjdoLTd2Mi44aDMuN2MtLjYgMS45LTIgMy4yLTQuNiAzLjItMi45IDAtNS0yLjQtNS01LjNTNDMuMSA5IDQ2IDljMS42IDAgMy4yLjggNC4yIDIuMWwyLjMtMS41QzUxIDcuNSA0OC42IDYuMyA0NiA2LjNjLTQuNCAwLTggMy42LTggOC4xczMuNCA4LjEgOCA4LjEgOC0zLjYgOC04LjFjLjEtLjMgMC0uNSAwLS43eiIvPgogICAgPHBhdGggZD0iTTI1IDE0aC03djJoNC44Yy0uNyAzLTIuOSA1LjUtNS44IDYuNUw1LjUgMTFjMS4yLTMuNSA0LjYtNiA4LjUtNiAzIDAgNS43IDEuNSA3LjQgMy44bDEuNS0xLjNDMjAuOSA0LjggMTcuNyAzIDE0IDMgOC44IDMgNC40IDYuNyAzLjMgMTEuNmwxMy4yIDEzLjJDMjEuMyAyMy42IDI1IDE5LjIgMjUgMTR6bS0yMiAuMWMwIDIuOCAxLjEgNS41IDMuMiA3LjYgMi4xIDIuMSA0LjkgMy4yIDcuNiAzLjJMMyAxNC4xeiIKICAgICAgICAgIGZpbGw9InRyYW5zcGFyZW50Ii8+CiAgICA8cGF0aCBkPSJNMTQgMEM2LjMgMCAwIDYuMyAwIDE0czYuMyAxNCAxNCAxNCAxNC02LjMgMTQtMTRTMjEuNyAwIDE0IDB6TTYuMiAyMS44QzQuMSAxOS43IDMgMTYuOSAzIDE0LjJMMTMuOSAyNWMtMi44LS4xLTUuNi0xLjEtNy43LTMuMnptMTAuMiAyLjlMMy4zIDExLjZDNC40IDYuNyA4LjggMyAxNCAzYzMuNyAwIDYuOSAxLjggOC45IDQuNWwtMS41IDEuM0MxOS43IDYuNSAxNyA1IDE0IDVjLTMuOSAwLTcuMiAyLjUtOC41IDZMMTcgMjIuNWMyLjktMSA1LjEtMy41IDUuOC02LjVIMTh2LTJoN2MwIDUuMi0zLjcgOS42LTguNiAxMC43eiIKICAgICAgICAgIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg=="
+                                                             width="163"/></a></div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script id="gatsby-script-loader">/*<![CDATA[*/
+window.page = {"componentChunkName": "component---src-pages-index-js", "jsonName": "index", "path": "/"};
+window.dataPath = "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8";/*]]>*/</script>
+<script id="gatsby-chunk-mapping">/*<![CDATA[*/
+window.___chunkMapping = {
+  "app": ["/app-48cb971dc06781d2931f.js"],
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": ["/component---node-modules-gatsby-plugin-offline-app-shell-js-896a3f852b233b9ca05e.js"],
+  "component---src-pages-404-js": ["/component---src-pages-404-js-eba32d97e976a24250e8.js"],
+  "component---src-pages-index-js": ["/component---src-pages-index-js-87d3b17c3a8c467f0533.js"],
+  "pages-manifest": ["/pages-manifest-5249f7834bfee4d57c3b.js"]
+};/*]]>*/</script>
+<script async="" src="/component---src-pages-index-js-87d3b17c3a8c467f0533.js"></script>
+<script async="" src="/8-373a1af04a1553ffb8c5.js"></script>
+<script async="" src="/1-5747494c3e854b480bb6.js"></script>
+<script async="" src="/styles-1fcfc8b8a193d4fac16e.js"></script>
+<script async="" src="/app-48cb971dc06781d2931f.js"></script>
+<script async="" src="/webpack-runtime-b89e59618e49e9d305e3.js"></script>
+</body>
+</html>

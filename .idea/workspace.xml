@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/johndalvik.github.io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-373a1af04a1553ffb8c5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-48cb971dc06781d2931f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages-manifest-5249f7834bfee4d57c3b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/d/140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/d/604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/d/820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles-1fcfc8b8a193d4fac16e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack-runtime-b89e59618e49e9d305e3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-45253c72d5a62648debf.js" beforeDir="false" afterPath="$PROJECT_DIR$/1-5747494c3e854b480bb6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/404/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-1db73955268ece794757.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-0f0c3226d2f3e55d3843.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/chunk-map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---node-modules-gatsby-plugin-offline-app-shell-js-caa6f560410bfe9ffa16.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---node-modules-gatsby-plugin-offline-app-shell-js-896a3f852b233b9ca05e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---src-pages-404-js-4457973f2a558309a892.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---src-pages-404-js-eba32d97e976a24250e8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---src-pages-index-js-2975f70094ffafae644c.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---src-pages-index-js-87d3b17c3a8c467f0533.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/offline-plugin-app-shell-fallback/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/offline-plugin-app-shell-fallback/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages-manifest-1a6ae501c0e07c2148a2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/2bd34/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/08283/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/69ecd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/705dd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/e1fed/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/a4c48/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/140ea/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/09361/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/1f75a/supercharge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/4cdea/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/e1fed/supercharge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/c8e05/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/08283/supercharge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/2bd34/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/08283/hbo-help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/69ecd/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/fbe2f/hbo-help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/705dd/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/e1fed/hbo-help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/a4c48/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/140ea/hbo-help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/2bd34/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/08283/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/3cf9a/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/26d9e/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/419be/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/59257/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/69ecd/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/fbe2f/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/705dd/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/e1fed/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/b3eb1/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/224e0/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/e7d0f/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/31f38/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/2bd34/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/08283/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/3cf9a/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/26d9e/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/419be/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/59257/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/69ecd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/fbe2f/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/705dd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/e1fed/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/ae92a/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/a3fa0/hbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/2cc41/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/eadbd/quiz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/3e4d1/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/1986a/quiz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/d15e9/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/f01f2/quiz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/eacee/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/7ef6a/quiz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/2bd34/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/08283/attrecto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/69ecd/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/fbe2f/attrecto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/705dd/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/e1fed/attrecto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/87b84/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/f70c7/attrecto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/2cc41/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/eadbd/cms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/3e4d1/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/1986a/cms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/d15e9/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/f01f2/cms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/eacee/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/7ef6a/cms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/1013971051.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/1013971051.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/1083525551.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/1083525551.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2216692878.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2216692878.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2676607004.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2676607004.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2889579195.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2889579195.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/3140215414.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/3140215414.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/3154632935.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/3154632935.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/4033434043.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/4033434043.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/812984354.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/812984354.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/97261376.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/97261376.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/2bd34/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/08283/bpmua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/419be/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/59257/bpmua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/69ecd/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/fbe2f/bpmua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/705dd/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/e1fed/bpmua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/dea62/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/f8afa/bpmua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/2bd34/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/08283/mate_anna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/69ecd/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/fbe2f/mate_anna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/705dd/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/e1fed/mate_anna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/a4c48/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/140ea/mate_anna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles-f207158886eb04827552.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-runtime-a5d90a6128e1ce427759.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.stats.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="johndalvik.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="johndalvik.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="johndalvik.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="johndalvik.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="404" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="" />
+      <created>1550842633389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550842633389</updated>
+      <workItem from="1550842634614" duration="1288000" />
+      <workItem from="1550846544608" duration="1210000" />
+      <workItem from="1551956352785" duration="975000" />
+      <workItem from="1554108166172" duration="693000" />
+    </task>
+    <task id="LOCAL-00001" summary="New design built with GatsbyJs">
+      <created>1550842867852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550842867852</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CSS fix, package updated">
+      <created>1550843324033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550843324033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="404 page redesigned, config changes">
+      <created>1550846599432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550846599432</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix 404 page">
+      <created>1550848140165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550848140166</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix 404 page, updated versions">
+      <created>1551956768109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551956768109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4166000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24231465" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Gerrit" />
+      <window_info anchor="bottom" id="SonarLint" weight="0.3293556" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32994187" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.21075581" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.2756563" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32994187" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32994187" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="New design built with GatsbyJs" />
+    <MESSAGE value="CSS fix, package updated" />
+    <MESSAGE value="404 page redesigned, config changes" />
+    <MESSAGE value="Fix 404 page" />
+    <MESSAGE value="Fix 404 page, updated versions" />
+    <MESSAGE value="Updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/styles.8def272da33bdf0ae662.css" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
