@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -90,6 +88,7 @@
       <workItem from="1554122077800" duration="550000" />
       <workItem from="1554191670587" duration="486000" />
       <workItem from="1554203875691" duration="12000" />
+      <workItem from="1556736197763" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="New design built with GatsbyJs">
       <created>1550842867852</created>
@@ -133,11 +132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554109001186</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated dependencies, new profile image">
+      <created>1556736244037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556736244037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6182000" />
+    <option name="totallyTimeSpent" value="6240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
@@ -146,6 +152,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="GraphQL" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994187" />
@@ -156,7 +163,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32994187" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.21075581" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.2756563" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.274463" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32994187" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32994187" />
       <window_info anchor="bottom" id="Gerrit" order="13" />
@@ -178,10 +185,8 @@
     <MESSAGE value="Fix 404 page" />
     <MESSAGE value="Fix 404 page, updated versions" />
     <MESSAGE value="Updated dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Updated dependencies, new profile image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies, new profile image" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles.8def272da33bdf0ae662.css" />
@@ -190,7 +195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/404/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="399">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
