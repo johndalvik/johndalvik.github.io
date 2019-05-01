@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/johndalvik.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-373a1af04a1553ffb8c5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app-48cb971dc06781d2931f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages-manifest-5249f7834bfee4d57c3b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/d/140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/d/604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/d/820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles-1fcfc8b8a193d4fac16e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-runtime-b89e59618e49e9d305e3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-45253c72d5a62648debf.js" beforeDir="false" afterPath="$PROJECT_DIR$/1-5747494c3e854b480bb6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/404/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-1db73955268ece794757.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-0f0c3226d2f3e55d3843.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/chunk-map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component---node-modules-gatsby-plugin-offline-app-shell-js-caa6f560410bfe9ffa16.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---node-modules-gatsby-plugin-offline-app-shell-js-896a3f852b233b9ca05e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component---src-pages-404-js-4457973f2a558309a892.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---src-pages-404-js-eba32d97e976a24250e8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component---src-pages-index-js-2975f70094ffafae644c.js" beforeDir="false" afterPath="$PROJECT_DIR$/component---src-pages-index-js-87d3b17c3a8c467f0533.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offline-plugin-app-shell-fallback/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/offline-plugin-app-shell-fallback/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages-manifest-1a6ae501c0e07c2148a2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/2bd34/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/08283/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/69ecd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/705dd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/e1fed/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/a4c48/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/140ea/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/09361/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/1f75a/supercharge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/4cdea/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/e1fed/supercharge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/c8e05/supercharge.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/08283/supercharge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/2bd34/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/08283/hbo-help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/69ecd/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/fbe2f/hbo-help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/705dd/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/e1fed/hbo-help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/a4c48/hbo-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/140ea/hbo-help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/2bd34/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/08283/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/3cf9a/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/26d9e/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/419be/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/59257/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/69ecd/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/fbe2f/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/705dd/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/e1fed/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/b3eb1/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/224e0/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/e7d0f/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7794a94aee87a282596366b6e83bd647/31f38/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/2bd34/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/08283/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/3cf9a/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/26d9e/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/419be/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/59257/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/69ecd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/fbe2f/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/705dd/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/e1fed/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/ae92a/hbo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/a3fa0/hbo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/2cc41/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/eadbd/quiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/3e4d1/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/1986a/quiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/d15e9/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/f01f2/quiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/eacee/quiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/7ef6a/quiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/2bd34/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/08283/attrecto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/69ecd/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/fbe2f/attrecto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/705dd/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/e1fed/attrecto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/87b84/attrecto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/f70c7/attrecto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/2cc41/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/eadbd/cms.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/3e4d1/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/1986a/cms.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/d15e9/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/f01f2/cms.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/eacee/cms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/7ef6a/cms.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/1013971051.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/1013971051.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/1083525551.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/1083525551.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/2216692878.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2216692878.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/2676607004.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2676607004.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/2889579195.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/2889579195.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/3140215414.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/3140215414.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/3154632935.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/3154632935.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/4033434043.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/4033434043.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/812984354.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/812984354.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/d/97261376.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/d/97261376.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/2bd34/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/08283/bpmua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/419be/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/59257/bpmua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/69ecd/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/fbe2f/bpmua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/705dd/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/e1fed/bpmua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/dea62/bpmua.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/f8afa/bpmua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/2bd34/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/08283/mate_anna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/69ecd/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/fbe2f/mate_anna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/705dd/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/e1fed/mate_anna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/a4c48/mate_anna.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/140ea/mate_anna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles-f207158886eb04827552.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-runtime-a5d90a6128e1ce427759.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,7 +29,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +45,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +86,10 @@
       <workItem from="1550842634614" duration="1288000" />
       <workItem from="1550846544608" duration="1210000" />
       <workItem from="1551956352785" duration="975000" />
-      <workItem from="1554108166172" duration="693000" />
+      <workItem from="1554108166172" duration="1661000" />
+      <workItem from="1554122077800" duration="550000" />
+      <workItem from="1554191670587" duration="486000" />
+      <workItem from="1554203875691" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="New design built with GatsbyJs">
       <created>1550842867852</created>
@@ -213,11 +126,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551956768109</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated dependencies">
+      <created>1554109001185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554109001186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4166000" />
+    <option name="totallyTimeSpent" value="6182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
@@ -226,8 +146,6 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Gerrit" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32994187" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994187" />
@@ -241,6 +159,8 @@
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.2756563" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32994187" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32994187" />
+      <window_info anchor="bottom" id="Gerrit" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.3293556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />

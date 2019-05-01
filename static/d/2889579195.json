@@ -1,15 +1,1 @@
-{
-  "data": {
-    "placeholderImage": {
-      "childImageSharp": {
-        "fluid": {
-          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABWElEQVQ4y2NgGAUDChgZGZmYmOBsIMAqDqJYWFh4eXk5OTl5eHgEBATExMQgGiQkJICCEKVAKSAXwubi4hIWFoba4+3tvX379szMzAsXLly6dOnixYudnZ1Tp059+fLlyZMn5eXlTUxMzp8/f+7cufLycnNzc6CaR48eNTQ0QDW/evXq+PHjd+/evXfv3tatW////w9kAzW8ePFixowZQJHc3NzQ0NBly5YBLbhx4wbQoKdPn5qamoI0AxVBNAPBli1bgJrv3Llz5MiRJ0+ezJo1a8eOHdnZ2Y2NjW/evAGKAA09ffr0gwcPLC0tGXx9fXft2lVQUAB0z/Xr12/evNnR0TFlyhSIiTIyMnZ2dpcvXz58+HBzc7OTkxNQwePHj7u7u0HOZmNjExQUBAYJkASGlpSUFCRUJSUl4QEmIiKipqYGCWEhISE5OTnCUcUIAzijahTQEQAAQqahtrR1q0oAAAAASUVORK5CYII=",
-          "aspectRatio": 1,
-          "src": "/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png",
-          "srcSet": "/static/1b19193576eb2c42daa22d3b38f6c356/e1fed/hbo.png 75w,\n/static/1b19193576eb2c42daa22d3b38f6c356/08283/hbo.png 150w,\n/static/1b19193576eb2c42daa22d3b38f6c356/fbe2f/hbo.png 300w,\n/static/1b19193576eb2c42daa22d3b38f6c356/140ea/hbo.png 400w",
-          "sizes": "(max-width: 300px) 100vw, 300px"
-        }
-      }
-    }
-  }
-}
+{"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABWElEQVQ4y2NgGAUDChgZGZmYmOBsIMAqDqJYWFh4eXk5OTl5eHgEBATExMQgGiQkJICCEKVAKSAXwubi4hIWFoba4+3tvX379szMzAsXLly6dOnixYudnZ1Tp059+fLlyZMn5eXlTUxMzp8/f+7cufLycnNzc6CaR48eNTQ0QDW/evXq+PHjd+/evXfv3tatW////w9kAzW8ePFixowZQJHc3NzQ0NBly5YBLbhx4wbQoKdPn5qamoI0AxVBNAPBli1bgJrv3Llz5MiRJ0+ezJo1a8eOHdnZ2Y2NjW/evAGKAA09ffr0gwcPLC0tGXx9fXft2lVQUAB0z/Xr12/evNnR0TFlyhSIiTIyMnZ2dpcvXz58+HBzc7OTkxNQwePHj7u7u0HOZmNjExQUBAYJkASGlpSUFCRUJSUl4QEmIiKipqYGCWEhISE5OTnCUcUIAzijahTQEQAAQqahtrR1q0oAAAAASUVORK5CYII=","aspectRatio":1,"src":"/static/1b19193576eb2c42daa22d3b38f6c356/fdbb0/hbo.png","srcSet":"/static/1b19193576eb2c42daa22d3b38f6c356/e22c9/hbo.png 75w,\n/static/1b19193576eb2c42daa22d3b38f6c356/d3809/hbo.png 150w,\n/static/1b19193576eb2c42daa22d3b38f6c356/fdbb0/hbo.png 300w,\n/static/1b19193576eb2c42daa22d3b38f6c356/647de/hbo.png 400w","sizes":"(max-width: 300px) 100vw, 300px"}}}}}
