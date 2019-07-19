@@ -3,6 +3,144 @@
   <component name="ChangeListManager">
     <list default="true" id="2019d3ee-6161-45e6-8f90-76a09b8dd64a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-de17f981e86832b00402.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-de17f981e86832b00402.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-d74506a715e121b6c74d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-c54cbe437239b9f4dde4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---node-modules-gatsby-plugin-offline-app-shell-js-23ef13e090a58655c140.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---src-pages-404-js-16cf655002933d79018c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component---src-pages-index-js-e11d2b0dd517dd3a7665.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idb-keyval-iife.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/offline-plugin-app-shell-fallback/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages-manifest-6578d2174fc78f611926.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/647de/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/d3809/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/e22c9/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/1b19193576eb2c42daa22d3b38f6c356/fdbb0/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/0cc6a/supercharge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/d3809/supercharge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/3a65682fd7fe21abe18ad679aa0e6a14/e22c9/supercharge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/647de/hbo-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/d3809/hbo-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/e22c9/hbo-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/665ba12e2aa7b3652b09ac6d109d9b5d/fdbb0/hbo-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/59139/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/af144/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/b5207/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/d3809/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/e22c9/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/7d32f93aa5ae0739dde4d15da011b554/fdbb0/hbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/a2929b099491ed6f8f7faa2f1e74b4d2/d3809/profile-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/a2929b099491ed6f8f7faa2f1e74b4d2/e22c9/profile-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/a2929b099491ed6f8f7faa2f1e74b4d2/fdbb0/profile-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/24f62/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/8539d/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/c83a6/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ae1a47e9e51d5a7a7721611f09127c22/cb3d3/quiz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/a79b5/attrecto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/d3809/attrecto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/e22c9/attrecto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b07aae7d765cc81c6f6d7557375b2367/fdbb0/attrecto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/24f62/cms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/8539d/cms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/c83a6/cms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/b228aa4d25e52f06ef35fd8628f042a0/cb3d3/cms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/1013971051.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/1025518380.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/1083525551.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2216692878.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2676607004.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/2889579195.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/3140215414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/3154632935.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/4033434043.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/755544856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/776422962.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/812984354.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/d/820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/1a9d1/bpmua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/b5207/bpmua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/d3809/bpmua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/e22c9/bpmua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/de6d00f2e643d668dd0bd6cdd84cde04/fdbb0/bpmua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/devices-c6098c56f800dfba23bef5d3c10e95b8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/647de/mate_anna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/d3809/mate_anna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/e22c9/mate_anna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/e978b1016c55ebe71c3cb23d573300fd/fdbb0/mate_anna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles-d172821e135d0d8955dd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.5657bfcbcd84952859bf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-runtime-d195cc3e650f671b5b28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-background-sync.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-background-sync.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-background-sync.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-background-sync.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-broadcast-cache-update.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-broadcast-cache-update.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-broadcast-cache-update.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-broadcast-cache-update.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cache-expiration.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cache-expiration.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cache-expiration.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cache-expiration.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cacheable-response.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cacheable-response.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cacheable-response.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-cacheable-response.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-core.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-core.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-core.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-core.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-google-analytics.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-google-analytics.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-google-analytics.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-google-analytics.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-navigation-preload.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-navigation-preload.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-navigation-preload.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-navigation-preload.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-precaching.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-precaching.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-precaching.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-precaching.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-range-requests.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-range-requests.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-range-requests.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-range-requests.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-routing.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-routing.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-routing.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-routing.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-strategies.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-strategies.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-strategies.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-strategies.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-streams.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-streams.dev.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-streams.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-streams.prod.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbox-v3.6.3/workbox-sw.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +159,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="953" />
+    <option name="width" value="1920" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -35,11 +173,6 @@
             <path>
               <item name="johndalvik.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="johndalvik.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="johndalvik.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="johndalvik.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="1-ea9bc1864b029b24bb27.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -93,6 +226,9 @@
       <workItem from="1556736197763" duration="58000" />
       <workItem from="1556736350287" duration="709000" />
       <workItem from="1556780851806" duration="56000" />
+      <workItem from="1559764209439" duration="73000" />
+      <workItem from="1559805140174" duration="1000" />
+      <workItem from="1563543854338" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="New design built with GatsbyJs">
       <created>1550842867852</created>
@@ -150,16 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556736472194</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated dependencies">
+      <created>1559764273687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559764273687</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7005000" />
+    <option name="totallyTimeSpent" value="7385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1103" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24231465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20695102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -195,15 +338,12 @@
     <MESSAGE value="404 page redesigned, config changes" />
     <MESSAGE value="Fix 404 page" />
     <MESSAGE value="Fix 404 page, updated versions" />
-    <MESSAGE value="Updated dependencies" />
     <MESSAGE value="Updated dependencies, new profile image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies, new profile image" />
+    <MESSAGE value="Updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles.8def272da33bdf0ae662.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/404/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -211,10 +351,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-ea9bc1864b029b24bb27.js">
+    <entry file="file://$PROJECT_DIR$/1-ea9bc1864b029b24bb27.js" />
+    <entry file="file://$PROJECT_DIR$/1-de17f981e86832b00402.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
